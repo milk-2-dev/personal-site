@@ -1,6 +1,6 @@
 <template>
-  <div
-    class="relative flex h-[700px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border bg-background md:shadow-xl"
+  <section
+    class="relative flex h-[700px] w-full flex-col items-center justify-center overflow-hidden bg-background"
   >
     <ClientOnly>
       <BlurReveal :delay="0.2" :duration="0.75" class="p-8 z-10">
@@ -12,7 +12,7 @@
         </span>
         <span>
           <TextHighlight
-            class="text-base rounded-lg bg-gradient-to-r from-purple-300 to-orange-300 xl:text-2xl/none sm:text-2xl"
+            class="text-base rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 xl:text-2xl/none sm:text-2xl"
             :delay="1000"
           >
             Frontend developer</TextHighlight
@@ -69,7 +69,7 @@
       :staticity="10"
       refresh
     />
-  </div>
+  </section>
 </template>
 
 <script setup lang="ts">
