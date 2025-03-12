@@ -14,7 +14,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/color-mode', '@vesp/nuxt-fontawesome'],
   fontawesome: {
     icons: {
-      solid: ['at'],
+      solid: ['at', 'chart-simple', 'bullhorn', 'chart-line', 'user-graduate', 'store', 'city'],
       brands: ['github', 'linkedin'],
     }
   }

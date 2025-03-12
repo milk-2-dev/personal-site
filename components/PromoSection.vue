@@ -1,0 +1,39 @@
+<template>
+  <section class="bg-white dark:bg-gray-900">
+    <div class="max-w-screen-xl px-4 py-4 mx-auto">
+      <div
+        class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 sm:grid-cols-3 lg:grid-cols-6 dark:text-gray-400"
+      >
+        <div class="flex items-center lg:justify-center">
+          <font-awesome :icon="['fas', 'chart-simple']" size="2x" />
+          <span class="ml-2 font-bold text-xl"> MarTech </span>
+        </div>
+        <div class="flex items-center lg:justify-center">
+          <font-awesome :icon="['fas', 'bullhorn']" size="2x" />
+          <span class="ml-2 font-bold text-xl"> AdTech </span>
+        </div>
+
+        <div class="flex items-center lg:justify-center">
+          <font-awesome :icon="['fas', 'chart-line']" size="2x" />
+          <span class="ml-2 font-bold text-xl"> FinTech </span>
+        </div>
+        <div class="flex items-center lg:justify-center">
+          <font-awesome :icon="['fas', 'store']" size="2x" />
+          <span class="ml-2 font-bold text-xl"> RetailTech </span>
+        </div>
+        <div class="flex items-center lg:justify-center">
+          <font-awesome :icon="['fas', 'user-graduate']" size="2x" />
+          <span class="ml-2 font-bold text-xl"> EdTech </span>
+        </div>
+        <div class="flex items-center lg:justify-center">
+          <font-awesome :icon="['fas', 'city']" size="2x" />
+          <span class="ml-2 font-bold text-xl"> Smart City </span>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script setup></script>
+
+<style lang="scss" scoped></style>

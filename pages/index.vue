@@ -24,9 +24,8 @@ const number = ref(1);
     </Html>
 
     <TheHero />
+    <PromoSection/>
+    <AboutSection/>
 
-    <p>
-      <NuxtLink to="/about"> About page </NuxtLink>
-    </p>
   </div>
 </template>
