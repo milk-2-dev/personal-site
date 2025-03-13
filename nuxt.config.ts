@@ -2,20 +2,32 @@
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineNuxtConfig({
-  compatibilityDate: '2024-11-01',
+  compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
-  css: ['~/assets/css/tailwind.css'],
+  css: ["~/assets/css/tailwind.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-  modules: ['@nuxtjs/color-mode', '@vesp/nuxt-fontawesome'],
+  modules: ["@nuxtjs/color-mode", "@vesp/nuxt-fontawesome"],
   fontawesome: {
     icons: {
-      solid: ['at', 'chart-simple', 'bullhorn', 'chart-line', 'user-graduate', 'store', 'city'],
-      brands: ['github', 'linkedin'],
-    }
-  }
-})
+      solid: [
+        "at",
+        "chart-simple",
+        "bullhorn",
+        "chart-line",
+        "user-graduate",
+        "store",
+        "city",
+        "code",
+        "dumbbell",
+        "people-group",
+        "people-roof",
+      ],
+      brands: ["github", "linkedin", "figma"],
+    },
+  },
+});

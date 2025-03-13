@@ -26,6 +26,7 @@ const number = ref(1);
     <TheHero />
     <PromoSection/>
     <AboutSection/>
+    <SolutionsSection/>
 
   </div>
 </template>
