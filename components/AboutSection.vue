@@ -17,9 +17,12 @@
         </p>
         <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
           Since 2017, I have been fully engaged in front-end development using
-          popular frameworks and libraries. For {{ expirienceYears }} years now,
-          I have been solving problems of different levels and complexity and I
-          love it.
+          popular frameworks and libraries. For the last {{ expirienceYears }}+
+          years, I've been building fast, responsive, and efficient web
+          solutions. I specialize in UI/UX, interactive web application
+          development, performance optimization, and SEO. I help businesses get
+          modern, user-friendly and stylish products that engage users and
+          increase conversions. 🚀
         </p>
       </div>
       <div
