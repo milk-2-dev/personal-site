@@ -26,6 +26,7 @@ export default defineNuxtConfig({
         "dumbbell",
         "people-group",
         "people-roof",
+        "circle-check",
       ],
       brands: ["github", "linkedin", "figma"],
     },
