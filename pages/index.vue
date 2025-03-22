@@ -1,4 +1,6 @@
 <script setup>
+import ProfessionalTimelineSection from '~/components/ProfessionalTimelineSection.vue';
+
 // Add a class to the body
 useHead({
   bodyAttrs: {
@@ -27,6 +29,7 @@ const number = ref(1);
     <PromoSection/>
     <AboutSection/>
     <SolutionsSection/>
+    <ProfessionalTimelineSection/>
 
   </div>
 </template>
