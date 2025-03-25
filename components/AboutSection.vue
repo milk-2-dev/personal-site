@@ -4,26 +4,25 @@
       class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6"
     >
       <div class="col-span-2 mb-8">
-        <h2
-          class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
-        >
-          About me.
-        </h2>
-        <p class="pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-          My story as a front-end developer begins in 2013, and like most of
-          them, I started with CSS and HTML. I worked as an html-coder for 4
-          years. During this time, I have gained extensive knowledge of
-          responsiveness, cross-browser and accessibility.
-        </p>
-        <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
-          Since 2017, I have been fully engaged in front-end development using
-          popular frameworks and libraries. For the last {{ expirienceYears }}+
-          years, I've been building fast, responsive, and efficient web
-          solutions. I specialize in UI/UX, interactive web application
-          development, performance optimization, and SEO. I help businesses get
-          modern, user-friendly and stylish products that engage users and
-          increase conversions. 🚀
-        </p>
+        <ClientOnly>
+          <h2
+            class="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
+          >
+            About.
+          </h2>
+          <div class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+            <TextGenerateEffect
+              :words="aboutText1"
+              class="pb-3"
+              :duration="0.3"
+            />
+            <TextGenerateEffect
+              :words="aboutText2"
+              :delay="9000"
+              :duration="0.3"
+            />
+          </div>
+        </ClientOnly>
       </div>
       <div
         class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0"
@@ -86,6 +85,13 @@ const expirienceYears = computed(() => {
   const currentYear = new Date().getFullYear();
 
   return currentYear - startYear;
+});
+
+const aboutText1 = computed(() => {
+  return `My story as a front-end developer begins in 2013, and like most of them, I started with CSS and HTML. I worked as an html-coder for 4 years. During this time, I have gained extensive knowledge of responsiveness, cross-browser and accessibility.`;
+});
+const aboutText2 = computed(() => {
+  return `Since 2017, I have been fully engaged in front-end development using popular frameworks and libraries. For the last ${expirienceYears.value}+ years, I've been building fast, responsive, and efficient web solutions. I specialize in UI/UX, interactive web application development, performance optimization, and SEO. I help businesses get modern, user-friendly and stylish products that engage users and increase conversions. 🚀`;
 });
 </script>
 
