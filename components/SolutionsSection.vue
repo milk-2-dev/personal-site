@@ -70,16 +70,18 @@
             </li>
           </ul>
         </div>
-        <img 
-          class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="./images/feature-1.png"
-          alt="dashboard feature image"/>
+        <NuxtImg
+          class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
+          src="/images/solution1.svg"
+          alt="dashboard feature image"
+        />
       </div>
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-        <img 
-          class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="./images/feature-2.png"
-          alt="feature image 2"/>
+        <NuxtImg
+          class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
+          src="/images/solution1.svg"
+          alt="dashboard feature image"
+        />
         <div class="text-gray-500 sm:text-lg dark:text-gray-400">
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
@@ -216,10 +218,11 @@
             </li>
           </ul>
         </div>
-        <img 
-          class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="./images/feature-1.png"
-          alt="dashboard feature image"/>
+        <NuxtImg
+          class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
+          src="/images/solution1.svg"
+          alt="dashboard feature image"
+        />
       </div>
     </div>
   </section>

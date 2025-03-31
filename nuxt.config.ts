@@ -11,7 +11,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxtjs/color-mode", "@vesp/nuxt-fontawesome"],
+  modules: [
+    "@nuxtjs/color-mode",
+    "@vesp/nuxt-fontawesome",
+    "@nuxt/image",
+  ],
   fontawesome: {
     icons: {
       solid: [
