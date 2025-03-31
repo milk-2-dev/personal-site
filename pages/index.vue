@@ -30,6 +30,7 @@ const number = ref(1);
     <AboutSection/>
     <SolutionsSection/>
     <ProfessionalTimelineSection/>
+    <SkillsSection/>
 
   </div>
 </template>
