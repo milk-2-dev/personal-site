@@ -23,7 +23,7 @@
             <ul v-for="list in skillList">
               <li
                 v-for="item in list"
-                class="mb-3 list-inside inline-block bg-indigo-400 rounded-sm text-white py-1 p-2 font-bold me-2 last:me-0 dark:text-neutral-500"
+                class="mb-3 list-inside inline-block bg-indigo-400 border border-indigo-400 rounded-sm text-white py-1 p-2 font-bold me-2 duration-300 ease-in-out cursor-default hover:bg-white hover:text-indigo-400 last:me-0 dark:text-neutral-500"
               >
                 {{ item }}
               </li>
