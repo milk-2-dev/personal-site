@@ -1,4 +1,5 @@
 <script setup>
+import PortfolioSection from '~/components/PortfolioSection.vue';
 import ProfessionalTimelineSection from '~/components/ProfessionalTimelineSection.vue';
 
 // Add a class to the body
@@ -31,6 +32,7 @@ const number = ref(1);
     <SolutionsSection/>
     <ProfessionalTimelineSection/>
     <SkillsSection/>
+    <PortfolioSection/>
 
   </div>
 </template>
