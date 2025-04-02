@@ -3,17 +3,6 @@
     ref="timelineContainerRef"
     class="w-full font-sans dark:bg-neutral-950"
   >
-    <!-- <div class="mx-auto max-w-7xl px-4 py-20 lg:px-10 md:px-8">
-      <h2 class="mb-4 max-w-4xl text-lg text-black md:text-4xl dark:text-white">
-        {{ title }}
-      </h2>
-      <p
-        class="max-w-sm text-sm text-neutral-700 md:text-base dark:text-neutral-300"
-      >
-        {{ description }}
-      </p>
-    </div> -->
-
     <div ref="timelineRef" class="relative z-0 mx-auto max-w-7xl pb-20">
       <div
         v-for="(item, index) in props.items"

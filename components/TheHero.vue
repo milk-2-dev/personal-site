@@ -73,6 +73,11 @@
 </template>
 
 <script setup lang="ts">
+import { BlurReveal, TextHighlight } from "@/components/ui/text";
+import { ParticlesBg } from "@/components/ui/backgrounds";
+import InteractiveHoverButton from "@/components/ui/buttons/InteractiveHoverButton.vue";
+
+
 const isDark = computed(() => useColorMode().value == "white");
 </script>
 

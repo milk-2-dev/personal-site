@@ -80,6 +80,8 @@
 </template>
 
 <script setup>
+import { TextGenerateEffect } from "@/components/ui/text";
+
 const expirienceYears = computed(() => {
   const startYear = new Date("01.01.2017").getFullYear();
   const currentYear = new Date().getFullYear();

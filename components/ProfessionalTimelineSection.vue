@@ -1,90 +1,3 @@
-<script setup>
-import { ref } from "vue";
-import { motion, AnimatePresence } from "motion-v";
-
-const allIngredients = [
-  { icon: "🍅", label: "Tomato" },
-  { icon: "🥬", label: "Lettuce" },
-  { icon: "🧀", label: "Cheese" },
-  { icon: "🥕", label: "Carrot" },
-  { icon: "🍌", label: "Banana" },
-  { icon: "🫐", label: "Blueberries" },
-  { icon: "🥂", label: "Champers?" },
-];
-
-const [tomato, lettuce, cheese] = allIngredients;
-const tabs = [tomato, lettuce, cheese];
-
-const selectedTab = ref(tabs[0]);
-
-const data = [
-  {
-    id: "version1.0",
-    label: "Bahnhof",
-    date: "Mar 2023 - Sep 2024",
-    description:
-      "Bahnhof AB is a Swedish internet service provider offering high-speed internet up to 10Gbit/s. Bahnhof provides services to individuals, businesses, and housing associations, including broadband, VPN, antivirus, and streaming solutions.",
-    responsibilities: [
-      "Support (6 projects) and development of 3 new projects.",
-      "Implementation of microfrontend architecture.",
-      "Design development and design kit.",
-      "Work in a team of 5 people.",
-      "Code test coverage.",
-    ],
-    stack: [
-      "Vue.js 2/3",
-      "Vuex/Pinia",
-      "Typescript",
-      "PHP",
-      "Single-spa",
-      "Jest",
-      "Cypress",
-    ],
-  },
-  {
-    id: "version2.0",
-    label: "RVA",
-    date: "Sep 2022 - Mar 2023",
-    description:
-      "RVA Fintech Solutions is a software product outsourcing company specializing in fintech solutions. They offer services including blockchain development, mobile and web application development, and IT outstaffing.",
-    responsibilities: [
-      "Transition main website from React SPA to SSR(Next.js).",
-      "Support of 2 projects.",
-      "Developing new functionality and maintaining the old one.",
-      "Work with SEO and writing a small article on this topic.",
-      "A lot of work with animations, transitions, and effects.",
-    ],
-    stack: ["React.js", "Next.js", "Node.js", "Docker", "Typescript"],
-  },
-  {
-    id: "version3.0",
-    label: "Voxys",
-    date: "Sep 2018 - Feb 2022",
-    description:
-      "Voxys is a leading outsourcing contact center, offering comprehensive communication solutions including call handling, customer support, and digital automation services.",
-    responsibilities: [
-      "Design development and design kit.",
-      "Refactoring of old code.",
-      "Development of new projects.",
-    ],
-    stack: ["Javascript", "React.js", "Next.js", "Node.js", "Figma", ".Net"],
-  },
-  {
-    id: "version4.0",
-    label: "MaxieMind",
-    date: "Jul 2017 - Sep 2018",
-    description:
-      "MaxieMind is an innovative company connecting awesome experienced developers with great customers. Company specialized in the development of mobile and web solutions for start-ups and business.",
-    responsibilities: [
-      "Design development and design kit.",
-      "Refactoring of old code.",
-      "Development of new projects.",
-    ],
-    stack: ["Javascript", "React.js", "Next.js", "Figma"],
-  },
-];
-</script>
-
 <template>
   <section class="bg-gray-50 dark:bg-gray-800">
     <div
@@ -160,47 +73,77 @@ const data = [
       </ClientOnly>
     </div>
   </section>
-  <!-- <div class="container">
-    <nav class="nav">
-      <ul class="tabs-container">
-        <motion.li
-          v-for="item in tabs"
-          :key="item.label"
-          tag="li"
-          class="tab"
-          :initial="false"
-          :animate="{
-            backgroundColor: item.label === selectedTab.label ? '#eee' : '#eee0'
-          }"
-          @click="selectedTab = item"
-        >
-          {{ `${item.icon} ${item.label}` }}
-          <motion.div
-            v-if="item.label === selectedTab.label"
-            class="underline"
-            layout-id="underline"
-            id="underline"
-          />
-        </motion.li>
-      </ul>
-    </nav>
-    <main class="icon-container">
-      <AnimatePresence mode="wait">
-        <motion.div
-          :key="selectedTab ? selectedTab.label : 'empty'"
-          :initial="{ y: 10, opacity: 0 }"
-          :animate="{ y: 0, opacity: 1 }"
-          :exit="{ y: -10, opacity: 0 }"
-          :transition="{ duration: 0.2 }"
-          class="icon"
-        >
-          {{ selectedTab ? selectedTab.icon : "😋" }}
-        </motion.div>
-      </AnimatePresence>
-    </main>
-  </div> -->
 </template>
+<script setup>
+import Timeline from "@/components/ui/miscellaneous/Timeline.vue";
 
+const data = [
+  {
+    id: "version1.0",
+    label: "Bahnhof",
+    date: "Mar 2023 - Sep 2024",
+    description:
+      "Bahnhof AB is a Swedish internet service provider offering high-speed internet up to 10Gbit/s. Bahnhof provides services to individuals, businesses, and housing associations, including broadband, VPN, antivirus, and streaming solutions.",
+    responsibilities: [
+      "Support (6 projects) and development of 3 new projects.",
+      "Implementation of microfrontend architecture.",
+      "Design development and design kit.",
+      "Work in a team of 5 people.",
+      "Code test coverage.",
+    ],
+    stack: [
+      "Vue.js 2/3",
+      "Vuex/Pinia",
+      "Typescript",
+      "PHP",
+      "Single-spa",
+      "Jest",
+      "Cypress",
+    ],
+  },
+  {
+    id: "version2.0",
+    label: "RVA",
+    date: "Sep 2022 - Mar 2023",
+    description:
+      "RVA Fintech Solutions is a software product outsourcing company specializing in fintech solutions. They offer services including blockchain development, mobile and web application development, and IT outstaffing.",
+    responsibilities: [
+      "Transition main website from React SPA to SSR(Next.js).",
+      "Support of 2 projects.",
+      "Developing new functionality and maintaining the old one.",
+      "Work with SEO and writing a small article on this topic.",
+      "A lot of work with animations, transitions, and effects.",
+    ],
+    stack: ["React.js", "Next.js", "Node.js", "Docker", "Typescript"],
+  },
+  {
+    id: "version3.0",
+    label: "Voxys",
+    date: "Sep 2018 - Feb 2022",
+    description:
+      "Voxys is a leading outsourcing contact center, offering comprehensive communication solutions including call handling, customer support, and digital automation services.",
+    responsibilities: [
+      "Design development and design kit.",
+      "Refactoring of old code.",
+      "Development of new projects.",
+    ],
+    stack: ["Javascript", "React.js", "Next.js", "Node.js", "Figma", ".Net"],
+  },
+  {
+    id: "version4.0",
+    label: "MaxieMind",
+    date: "Jul 2017 - Sep 2018",
+    description:
+      "MaxieMind is an innovative company connecting awesome experienced developers with great customers. Company specialized in the development of mobile and web solutions for start-ups and business.",
+    responsibilities: [
+      "Design development and design kit.",
+      "Refactoring of old code.",
+      "Development of new projects.",
+    ],
+    stack: ["Javascript", "React.js", "Next.js", "Figma"],
+  },
+];
+</script>
 <style>
 .container {
   width: 480px;

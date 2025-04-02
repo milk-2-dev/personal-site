@@ -7,18 +7,17 @@
         >
           Skills.
         </h2>
-        <p
-            class="pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400"
-          >
-            I am constantly improving my knowledge and mastering new
-            technologies to create even better and more efficient solutions.
-            Here are the main technologies and tools I work with:
-          </p>
+        <p class="pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+          I am constantly improving my knowledge and mastering new technologies
+          to create even better and more efficient solutions. Here are the main
+          technologies and tools I work with:
+        </p>
       </div>
 
-      <div class="gap-8 grid sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 xl:gap-16">
+      <div
+        class="gap-8 grid sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 xl:gap-16"
+      >
         <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-          
           <div v-for="skillList in skills">
             <ul v-for="list in skillList">
               <li
@@ -34,13 +33,15 @@
           class="h-full w-full [mask-image:radial-gradient(450px_circle_at_center,#6366f1,transparent)]"
           :base="15"
           square-color="#6366f1"
-        ></Tetris>
+        />
       </div>
     </div>
   </section>
 </template>
 
 <script setup>
+import { Tetris } from "@/components/ui/backgrounds";
+
 const skills = [
   [
     ["JAVASCRIPT", "TYPESCRIPT"],
