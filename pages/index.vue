@@ -1,6 +1,13 @@
 <script setup>
-import PortfolioSection from '~/components/PortfolioSection.vue';
-import ProfessionalTimelineSection from '~/components/ProfessionalTimelineSection.vue';
+import {
+  HeroSection,
+  PromoSection,
+  AboutSection,
+  SolutionsSection,
+  ProfessionalTimelineSection,
+  SkillsSection,
+  PortfolioSection,
+} from "@/components/sections/home";
 
 // Add a class to the body
 useHead({
@@ -26,13 +33,12 @@ const number = ref(1);
       </Head>
     </Html>
 
-    <TheHero />
-    <PromoSection/>
-    <AboutSection/>
-    <SolutionsSection/>
-    <ProfessionalTimelineSection/>
-    <SkillsSection/>
-    <PortfolioSection/>
-
+    <HeroSection />
+    <PromoSection />
+    <AboutSection />
+    <SolutionsSection />
+    <ProfessionalTimelineSection />
+    <SkillsSection />
+    <PortfolioSection />
   </div>
 </template>
