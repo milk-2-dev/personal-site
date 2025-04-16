@@ -4,9 +4,9 @@ import {
   PromoSection,
   AboutSection,
   SolutionsSection,
-  ProfessionalTimelineSection,
   SkillsSection,
   PortfolioSection,
+  BlogSection
 } from "@/components/sections/home";
 
 // Add a class to the body
@@ -37,8 +37,8 @@ const number = ref(1);
     <PromoSection />
     <AboutSection />
     <SolutionsSection />
-    <ProfessionalTimelineSection />
     <SkillsSection />
     <PortfolioSection />
+    <BlogSection />
   </div>
 </template>
