@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white dark:bg-gray-900">
+  <section class="bg-gray-50 dark:bg-gray-800">
     <div class="relative max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
       <div class="mb-4">
         <h2
