@@ -6,7 +6,8 @@ import {
   SolutionsSection,
   SkillsSection,
   PortfolioSection,
-  BlogSection
+  BlogSection,
+  ContactSection,
 } from "@/components/sections/home";
 
 // Add a class to the body
@@ -40,5 +41,6 @@ const number = ref(1);
     <SkillsSection />
     <PortfolioSection />
     <BlogSection />
+    <ContactSection />
   </div>
 </template>
