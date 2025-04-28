@@ -20,20 +20,27 @@
         </span>
 
         <div class="mt-6 py-3">
-          <p class="text-base text-gray-600 sm:text-2xl xl:text-2xl">Code - is an art. Design - is an experience.</p>
+          <p class="text-base text-gray-600 sm:text-2xl xl:text-2xl">
+            Code - is an art. Design - is an experience.
+          </p>
           <p class="text-base text-gray-600 sm:text-2xl xl:text-2xl">
             I combine the two to create unique web products.
           </p>
         </div>
 
         <div class="mt-6">
-          <span class="mb-4 font-medium tracking-widest text-gray-500 uppercase text-xs">You can reach me via:</span>
+          <span
+            class="mb-4 font-medium tracking-widest text-gray-500 uppercase text-xs"
+            >You can reach me via:</span
+          >
 
           <div class="flex flex-row flex-wrap items-center">
             <ul class="list-none m-0 p-0 flex flex-row flex-wrap items-center">
               <li class="ms-3 first:ms-0">
                 <a
                   class="block text-primary hover:text-indigo-600 visited:text-indigo-700 cursor-pointer"
+                  href="mailto:create.with.klimov@gmail.com"
+                  target="_blank"
                 >
                   <font-awesome :icon="['fas', 'at']" size="2x" />
                 </a>
@@ -41,19 +48,28 @@
               <li class="ms-3">
                 <a
                   class="block text-primary hover:text-indigo-600 visited:text-indigo-700 cursor-pointer"
+                  href="http://linkedin.com/in/roman-klimov-frontend-developer"
+                  target="_blank"
                 >
                   <font-awesome :icon="['fab', 'linkedin']" size="2x" />
                 </a>
               </li>
-              
+
               <li class="ms-3">
-                <a class="block text-primary hover:text-indigo-600 visited:text-indigo-700 cursor-pointer">
+                <a
+                  class="block text-primary hover:text-indigo-600 visited:text-indigo-700 cursor-pointer"
+                  href="https://github.com/milk-2-dev"
+                  target="_blank"
+                >
                   <font-awesome :icon="['fab', 'github']" size="2x" />
                 </a>
               </li>
             </ul>
 
-            <span class="px-6 font-medium tracking-widest text-gray-500 uppercase text-xs">or</span>
+            <span
+              class="px-6 font-medium tracking-widest text-gray-500 uppercase text-xs"
+              >or</span
+            >
 
             <InteractiveHoverButton class="w-56" text="Contact form" />
           </div>
@@ -77,10 +93,7 @@ import { BlurReveal, TextHighlight } from "@/components/ui/text";
 import { ParticlesBg } from "@/components/ui/backgrounds";
 import InteractiveHoverButton from "@/components/ui/buttons/InteractiveHoverButton.vue";
 
-
 const isDark = computed(() => useColorMode().value == "white");
 </script>
 
-<style>
-
-</style>
+<style></style>
