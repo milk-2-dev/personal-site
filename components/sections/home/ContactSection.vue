@@ -52,7 +52,7 @@
             type="submit"
             class="px-5 py-2.5 text-sm font-medium text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
           >
-            <span v-if="!isSubmitting">Send message</span>
+            <span v-if="!isPending">Send message</span>
             <template v-else>
               Sending
 
@@ -121,13 +121,27 @@
         </form>
       </div>
     </div>
+
+    <Dialog v-if="showDialog" :defaultOpen="true" @update:open="(v) => (showDialog = v)">
+      <DialogContent>
+        <DialogHeader>
+          <DialogTitle>Great! Your message has been successfully sent.</DialogTitle>
+        </DialogHeader>
+      </DialogContent>
+    </Dialog>
   </section>
 </template>
 
 <script lang="ts" setup>
 import { object, string, type InferType } from "yup";
-import { useForm, useField, configure } from "vee-validate";
+import { useForm, useField } from "vee-validate";
 import FormInput from "~/components/ui/form/FormInput.vue";
+import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog'
 
 const schema = object({
   name: string().required("Name is required").min(2),
@@ -137,9 +151,6 @@ const schema = object({
 
 type Schema = InferType<typeof schema>;
 
-configure({
-  validateOnInput: false,
-});
 const { handleSubmit } = useForm({
   validationSchema: schema,
 });
@@ -150,19 +161,21 @@ const { value: name, errorMessage: nameError } = useField("name", {
 const { value: email, errorMessage: emailError } = useField("email");
 const { value: message, errorMessage: messageError } = useField("message");
 
-const isSubmitting = ref(false);
+const isPending = ref(false);
+const showDialog = ref(false);
 
 const onSubmit = handleSubmit(async (values, actions) => {
   console.log("Дані з форми:", values);
-  isSubmitting.value = true;
+  isPending.value = true;
 
   // Симуляція відправки
   await new Promise((resolve) => setTimeout(resolve, 1500));
   console.log("Надіслано!", values);
 
+  showDialog.value = true;
   // actions.resetForm();
 
-  isSubmitting.value = false;
+  isPending.value = false;
 });
 </script>
 
