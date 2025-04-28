@@ -16,7 +16,19 @@ export default defineNuxtConfig({
     "@vesp/nuxt-fontawesome",
     "@nuxt/image",
     "@vee-validate/nuxt",
+    "shadcn-nuxt",
   ],
+  shadcn: {
+    /**
+     * Prefix for all the imported component
+     */
+    prefix: "",
+    /**
+     * Directory that the component lives in.
+     * @default "./components/ui"
+     */
+    componentDir: "./components/ui",
+  },
   veeValidate: {
     // disable or enable auto imports
     autoImports: true,

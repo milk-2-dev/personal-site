@@ -1,10 +1,10 @@
 import animate from "tailwindcss-animate";
 import { setupInspiraUI } from "@inspira-ui/plugins";
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
 
 export default {
-  darkMode: "selector",
+  darkMode: ["selector", "class"],
   safelist: ["dark"],
   prefix: "",
   // content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}",],
@@ -25,8 +25,8 @@ export default {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         primary: {
-          DEFAULT: colors.indigo[500],
-          foreground: colors.white,
+          DEFAULT: "hsl(var(--primary))",
+          foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -52,6 +52,13 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        chart: {
+          1: "hsl(var(--chart-1))",
+          2: "hsl(var(--chart-2))",
+          3: "hsl(var(--chart-3))",
+          4: "hsl(var(--chart-4))",
+          5: "hsl(var(--chart-5))",
+        },
       },
       borderRadius: {
         xl: "calc(var(--radius) + 4px)",
@@ -60,10 +67,10 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
-        'sans': ['"Roboto"', ...defaultTheme.fontFamily.sans],
+        sans: ['"Roboto"', ...defaultTheme.fontFamily.sans],
       },
     },
   },
 
-  plugins: [animate, setupInspiraUI],
+  plugins: [animate, setupInspiraUI, require("tailwindcss-animate")],
 };
