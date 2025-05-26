@@ -58,17 +58,6 @@
             Leadership experience in a team.
           </p>
         </div>
-        <div>
-          <font-awesome
-            class="mb-2 text-primary"
-            :icon="['fas', 'people-roof']"
-            size="2x"
-          />
-          <h3 class="mb-2 text-2xl font-bold dark:text-white">18 coworkers</h3>
-          <p class="font-light text-gray-500 dark:text-gray-400">
-            Number of coworkers in one team with whom I worked.
-          </p>
-        </div>
       </div>
     </div>
   </section>
@@ -88,7 +77,6 @@ const aboutMeParts = [
   "Hey there, I'm Roman Klimov, a front-end developer you can trust with your product.",
   "Since 2017, I have been fully engaged in front-end development using popular frameworks and libraries that you can see in the skills section.",
   "I specialize in UI/UX, interactive web application development, performance optimization, and SEO. I help businesses get modern, user-friendly and stylish products that engage users and increase conversions. 🚀",
-  // "I also love sports, intellectual games and meeting new people",
 ];
 
 const aboutText = computed(() => {
