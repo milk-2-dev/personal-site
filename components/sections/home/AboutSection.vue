@@ -1,8 +1,6 @@
 <template>
-  <section class="bg-gray-50 dark:bg-gray-800">
-    <div
-      class="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6"
-    >
+  <SectionWrapper name="about">
+    <div class="items-center lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24">
       <div class="col-span-2 mb-8">
         <ClientOnly>
           <h2
@@ -60,11 +58,12 @@
         </div>
       </div>
     </div>
-  </section>
+  </SectionWrapper>
 </template>
 
 <script setup>
 import { TextGenerateEffect } from "@/components/ui/text";
+import SectionWrapper from "@/components/sections/SectionWrapper.vue";
 
 const expirienceYears = computed(() => {
   const startYear = new Date("01.01.2017").getFullYear();
@@ -80,9 +79,8 @@ const aboutMeParts = [
 ];
 
 const aboutText = computed(() => {
-  return  aboutMeParts.join(" \n ");
+  return aboutMeParts.join(" \n ");
 });
-
 </script>
 
 <style lang="scss" scoped></style>
