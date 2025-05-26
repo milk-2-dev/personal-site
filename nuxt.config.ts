@@ -17,6 +17,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
     "@vee-validate/nuxt",
     "shadcn-nuxt",
+    'nuxt-anchorscroll',
   ],
   shadcn: {
     /**
