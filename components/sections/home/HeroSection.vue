@@ -62,7 +62,7 @@
               >or</span
             >
 
-            <InteractiveHoverButton class="w-56" text="Contact form" />
+            <InteractiveHoverButton class="w-56" text="Contact form" @click="scrollToAnchor('contact')"/>
           </div>
         </div>
       </BlurReveal>
@@ -83,6 +83,15 @@
 import { BlurReveal, TextHighlight } from "@/components/ui/text";
 import { ParticlesBg } from "@/components/ui/backgrounds";
 import InteractiveHoverButton from "@/components/ui/buttons/InteractiveHoverButton.vue";
+
+const { scrollToAnchor } = useAnchorScroll({
+  toTop: {
+    scrollOptions: {
+      behavior: 'smooth',
+      offsetTop: 0,
+    }
+  },
+})
 
 const isDark = computed(() => useColorMode().value == "white");
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper name="contact">
+  <SectionWrapper name="contact" id="contact">
     <div class="mb-4">
       <h2
         class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
