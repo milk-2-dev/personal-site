@@ -12,13 +12,8 @@
           </h2>
           <div class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
             <TextGenerateEffect
-              :words="aboutText1"
+              :words="aboutText"
               class="pb-3"
-              :duration="0.3"
-            />
-            <TextGenerateEffect
-              :words="aboutText2"
-              :delay="9000"
               :duration="0.3"
             />
           </div>
@@ -89,12 +84,17 @@ const expirienceYears = computed(() => {
   return currentYear - startYear;
 });
 
-const aboutText1 = computed(() => {
-  return `My story as a front-end developer begins in 2013, and like most of them, I started with CSS and HTML. I worked as an html-coder for 4 years. During this time, I have gained extensive knowledge of responsiveness, cross-browser and accessibility.`;
+const aboutMeParts = [
+  "Hey there, I'm Roman Klimov, a front-end developer you can trust with your product.",
+  "Since 2017, I have been fully engaged in front-end development using popular frameworks and libraries that you can see in the skills section.",
+  "I specialize in UI/UX, interactive web application development, performance optimization, and SEO. I help businesses get modern, user-friendly and stylish products that engage users and increase conversions. 🚀",
+  // "I also love sports, intellectual games and meeting new people",
+];
+
+const aboutText = computed(() => {
+  return  aboutMeParts.join(" \n ");
 });
-const aboutText2 = computed(() => {
-  return `Since 2017, I have been fully engaged in front-end development using popular frameworks and libraries. For the last ${expirienceYears.value}+ years, I've been building fast, responsive, and efficient web solutions. I specialize in UI/UX, interactive web application development, performance optimization, and SEO. I help businesses get modern, user-friendly and stylish products that engage users and increase conversions. 🚀`;
-});
+
 </script>
 
 <style lang="scss" scoped></style>
