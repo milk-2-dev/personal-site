@@ -37,10 +37,10 @@ const number = ref(1);
     <HeroSection />
     <PromoSection />
     <AboutSection />
-    <SolutionsSection />
+    <!-- <SolutionsSection /> -->
     <SkillsSection />
-    <PortfolioSection />
-    <BlogSection />
+    <!-- <PortfolioSection /> -->
+    <!-- <BlogSection /> -->
     <ContactSection />
   </div>
 </template>

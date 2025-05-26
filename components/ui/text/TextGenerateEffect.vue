@@ -31,7 +31,6 @@ const props = withDefaults(
 
 const scope = ref(null);
 const wordsArray = computed(() => props.words.split(" "));
-console.log("wordsArray", wordsArray.value);
 
 const spanStyle = computed(() => ({
   opacity: 0,
