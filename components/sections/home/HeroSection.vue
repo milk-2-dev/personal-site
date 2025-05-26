@@ -4,27 +4,18 @@
   >
     <ClientOnly>
       <BlurReveal :delay="0.2" :duration="0.75" class="p-8 z-10">
-        <span class="text-xs tracking-tighter">Hey, there 👋</span>
-        <span
-          class="text-pretty text-3xl font-black leading-tight text-gray-900 sm:text-6xl xl:mb-8"
-        >
-          I`m Roman Klimov
-        </span>
-        <span>
-          <TextHighlight
-            class="text-base rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 xl:text-2xl/none sm:text-2xl"
-            :delay="1000"
-          >
-            Frontend developer</TextHighlight
-          >
-        </span>
-
-        <div class="mt-6 py-3">
-          <p class="text-base text-gray-600 sm:text-2xl xl:text-2xl">
-            Code - is an art. Design - is an experience.
+        <div class="mt-6 py-3 text-base text-gray-600 sm:text-3xl xl:text-4xl">
+          <p class="">
+            "I’m like the stylist you trust with your hair — but a
           </p>
-          <p class="text-base text-gray-600 sm:text-2xl xl:text-2xl">
-            I combine the two to create unique web products.
+          <p class=" ">
+            <TextHighlight
+              class="text-base rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 sm:text-3xl xl:text-4xl"
+              :delay="1000"
+            >
+              frontend developer</TextHighlight
+            >
+            you can trust with your product."
           </p>
         </div>
 
