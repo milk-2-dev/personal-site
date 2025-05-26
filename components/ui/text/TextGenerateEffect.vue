@@ -5,7 +5,7 @@
         v-for="(word, idx) in wordsArray"
         :key="word + idx"
         class="inline-block"
-        :style="spanStyle"
+        :style="word.includes('\n') ? 'display: block': spanStyle"
       >
         {{ word }}&nbsp;
       </span>
@@ -31,6 +31,7 @@ const props = withDefaults(
 
 const scope = ref(null);
 const wordsArray = computed(() => props.words.split(" "));
+console.log("wordsArray", wordsArray.value);
 
 const spanStyle = computed(() => ({
   opacity: 0,

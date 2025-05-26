@@ -64,9 +64,9 @@
             :icon="['fas', 'people-roof']"
             size="2x"
           />
-          <h3 class="mb-2 text-2xl font-bold dark:text-white">8M+ users</h3>
+          <h3 class="mb-2 text-2xl font-bold dark:text-white">18 coworkers</h3>
           <p class="font-light text-gray-500 dark:text-gray-400">
-            Number of users on the project I worked on.
+            Number of coworkers in one team with whom I worked.
           </p>
         </div>
       </div>
