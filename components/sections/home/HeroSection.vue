@@ -21,12 +21,12 @@
 
         <div class="mt-6">
           <span
-            class="mb-4 font-medium tracking-widest text-gray-500 uppercase text-xs"
+            class="font-medium tracking-widest text-center text-gray-500 uppercase text-xs block mb-3 sm:mb-0 sm:inline sm:text-left"
             >You can reach me via:</span
           >
 
-          <div class="flex flex-row flex-wrap items-center">
-            <ul class="list-none m-0 p-0 flex flex-row flex-wrap items-center">
+          <div class="flex flex-col flex-wrap items-center sm:flex-row ">
+            <ul class="list-none m-0 mb-3 p-0 flex flex-row flex-wrap items-center sm:mb-0">
               <li class="ms-3 first:ms-0">
                 <a
                   class="block text-primary hover:text-indigo-600 visited:text-indigo-700 cursor-pointer"
@@ -58,11 +58,11 @@
             </ul>
 
             <span
-              class="px-6 font-medium tracking-widest text-gray-500 uppercase text-xs"
+              class="px-6 font-medium tracking-widest text-gray-500 uppercase text-xs mb-3 sm:mb-0"
               >or</span
             >
 
-            <InteractiveHoverButton class="w-56" text="Contact form" @click="scrollToAnchor('contact')"/>
+            <InteractiveHoverButton class="w-56 mb-3 sm:mb-0" text="Contact form" @click="scrollToAnchor('contact')"/>
           </div>
         </div>
       </BlurReveal>
