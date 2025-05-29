@@ -1,6 +1,6 @@
 <template>
   <SectionWrapper name="about">
-    <div class="items-center lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24">
+    <div class="items-center md:grid md:grid-cols-4 md:gap-16 lg:gap-24">
       <div class="col-span-2 mb-8">
         <ClientOnly>
           <h2
@@ -8,7 +8,7 @@
           >
             About.
           </h2>
-          <div class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
+          <div class="font-light text-gray-500 text-xl dark:text-gray-400">
             <TextGenerateEffect
               :words="aboutText"
               class="pb-3"
@@ -18,7 +18,7 @@
         </ClientOnly>
       </div>
       <div
-        class="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0"
+        class="col-span-2 space-y-8 grid grid-cols-2 gap-12 space-y-0"
       >
         <div>
           <font-awesome
