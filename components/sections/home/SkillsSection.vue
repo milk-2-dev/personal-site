@@ -1,20 +1,7 @@
 <template>
-  <SectionWrapper name="skills">
-    <div class="mb-4">
-      <h2
-        class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
-      >
-        Skills.
-      </h2>
-      <p class="pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-        I am constantly improving my knowledge and mastering new technologies to
-        create even better and more efficient solutions. Here are the main
-        technologies and tools I work with:
-      </p>
-    </div>
-
+  <SectionWrapper name="skills" title="Skills" :desc="sectionDesc">
     <div
-      class="gap-8 grid sm:grid-rows-2 lg:grid-cols-2 lg:grid-rows-1 xl:gap-16"
+      class="gap-8 grid grid-cols-1 sm:grid-cols-2 xl:gap-16"
     >
       <div class="text-gray-500 sm:text-lg dark:text-gray-400">
         <div v-for="skillList in skills">
@@ -40,6 +27,9 @@
 <script setup>
 import { Tetris } from "@/components/ui/backgrounds";
 import SectionWrapper from "@/components/sections/SectionWrapper.vue";
+
+const sectionDesc =
+  "I am constantly improving my knowledge and mastering new technologies to create even better and more efficient solutions. Here are the main technologies and tools I work with:";
 
 const skills = [
   [
