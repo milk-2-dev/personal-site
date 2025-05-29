@@ -5,7 +5,7 @@
         {{ props.title }}
       </h2>
 
-      <p v-if="props.desc" class="mb-4 pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+      <p v-if="props.desc" class="mb-8 pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400">
         {{ props.desc }}
       </p>
 
