@@ -1,16 +1,5 @@
 <template>
-  <SectionWrapper name="contact" id="contact">
-    <div class="mb-4">
-      <h2
-        class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white"
-      >
-        Contact form.
-      </h2>
-      <p class="pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400">
-        If you have any questions, suggestions, or just want to get in touch,
-        please fill out the form below and I will respond as soon as possible.
-      </p>
-    </div>
+  <SectionWrapper name="contact" id="contact" title="Contact form." :desc="sectionDesc">
     <div class="px-4 mx-auto max-w-screen-md">
       <form @submit.prevent="onSubmit" class="space-y-6">
         <div class="flex gap-6">
@@ -147,6 +136,8 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import SectionWrapper from "@/components/sections/SectionWrapper.vue";
+
+const sectionDesc = "If you have any questions, suggestions, or just want to get in touch, please fill out the form below and I will respond as soon as possible.";
 
 const schema = object({
   name: string().required("Name is required").min(2),
