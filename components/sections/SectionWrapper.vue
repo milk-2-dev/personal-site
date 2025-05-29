@@ -1,6 +1,14 @@
 <template>
   <section :class="bgClass">
     <div class="relative max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
+      <h2 v-if="props.title" class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
+        {{ props.title }}
+      </h2>
+
+      <p v-if="props.desc" class="mb-4 pb-2 font-light text-gray-500 sm:text-xl dark:text-gray-400">
+        {{ props.desc }}
+      </p>
+
       <slot />
     </div>
   </section>
@@ -20,10 +28,14 @@ type SectionName =
 
 interface Props {
   name?: SectionName;
+  title?: string;
+  desc?: string;
 }
 
 const props = withDefaults(defineProps<Props>(), {
   name: undefined as SectionName | undefined,
+  title: "",
+  desc: "",
 });
 
 const grayBlocks: SectionName[] = ["about", "contact"];
