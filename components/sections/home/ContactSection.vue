@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper name="contact" id="contact" title="Contact form." :desc="sectionDesc">
+  <SectionWrapper name="contact" id="contactForm" title="Contact form." :desc="sectionDesc">
     <div class="px-4 mx-auto max-w-screen-md">
       <form @submit.prevent="onSubmit" class="space-y-6">
         <div class="flex gap-6">

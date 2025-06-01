@@ -5,9 +5,7 @@
     <ClientOnly>
       <BlurReveal :delay="0.2" :duration="0.75" class="p-8 z-10">
         <div class="mt-6 py-3 text-base text-gray-600 sm:text-3xl xl:text-4xl">
-          <p class="">
-            "I’m like the stylist you trust with your hair — but a
-          </p>
+          <p class="">"I’m like the stylist you trust with your hair — but a</p>
           <p class=" ">
             <TextHighlight
               class="text-base rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 sm:text-3xl xl:text-4xl"
@@ -25,8 +23,10 @@
             >You can reach me via:</span
           >
 
-          <div class="flex flex-col flex-wrap items-center sm:flex-row ">
-            <ul class="list-none m-0 mb-3 p-0 flex flex-row flex-wrap items-center sm:mb-0">
+          <div class="flex flex-col flex-wrap items-center sm:flex-row">
+            <ul
+              class="list-none m-0 mb-3 p-0 flex flex-row flex-wrap items-center sm:mb-0"
+            >
               <li class="ms-3 first:ms-0">
                 <a
                   class="block text-primary hover:text-indigo-600 visited:text-indigo-700 cursor-pointer"
@@ -62,7 +62,11 @@
               >or</span
             >
 
-            <InteractiveHoverButton class="w-56 mb-3 sm:mb-0" text="Contact form" @click="scrollToAnchor('contact')"/>
+            <InteractiveHoverButton
+              class="w-56 mb-3 sm:mb-0"
+              text="Contact form"
+              @click="scrollToAnchor()"
+            />
           </div>
         </div>
       </BlurReveal>
@@ -84,14 +88,13 @@ import { BlurReveal, TextHighlight } from "@/components/ui/text";
 import { ParticlesBg } from "@/components/ui/backgrounds";
 import InteractiveHoverButton from "@/components/ui/buttons/InteractiveHoverButton.vue";
 
-const { scrollToAnchor } = useAnchorScroll({
-  toTop: {
-    scrollOptions: {
-      behavior: 'smooth',
-      offsetTop: 0,
-    }
-  },
-})
+import { useRouter } from "vue-router";
+
+const router = useRouter();
+
+const scrollToAnchor = () => {
+  router.push({ path: "/", hash: "#contactForm" });
+};
 
 const isDark = computed(() => useColorMode().value == "white");
 </script>
