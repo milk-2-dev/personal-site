@@ -59,5 +59,5 @@ export default defineNuxtConfig({
       ],
       brands: ["github", "linkedin", "figma"],
     },
-  },
+  }
 });
