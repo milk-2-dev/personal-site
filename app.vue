@@ -12,3 +12,9 @@ useHead({
   titleTemplate: '%s - Meta Tags Example',
 })
 </script>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>
