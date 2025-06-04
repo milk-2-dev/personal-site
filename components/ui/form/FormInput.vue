@@ -9,6 +9,7 @@
     <input
       v-if="as === 'input'"
       :type="as === 'input' ? type : undefined"
+      ref="inputRef"
       :id="name"
       class="block p-3 w-full rounded-lg border shadow-sm text-sm text-gray-900 bg-gray-50 border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
       :class="[isError ? errorInputClass : activeInputClass]"
@@ -19,6 +20,7 @@
     <textarea
       v-else
       :id="name"
+      ref="inputRef"
       :rows="rows || 6"
       class="block p-3 w-full rounded-lg border shadow-sm text-sm text-gray-900 bg-gray-50 border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
       :class="[isError ? errorInputClass : activeInputClass]"
@@ -63,6 +65,12 @@ const activeLabelClass = ref("text-gray-900 dark:text-gray-300");
 const errorLabelClass = ref("text-red-700 dark:text-red-500");
 const activeInputClass = ref("border-gray-300");
 const errorInputClass = ref("border-red-500");
+
+const inputRef = ref(null);
+
+defineExpose({
+  inputRef
+});
 
 </script>
 

@@ -23,7 +23,6 @@ useHead({
     <Html lang="en">
       <Head>
         <Title>Senior frontend developer | HTML/CSS, JavaScript, Typescript, React, Vue, Next, Nuxt</Title>
-        <!-- <Meta name="description" :content="`My page's ${number} description`" /> -->
         <Link rel="preconnect" href="https://fonts.googleapis.com" />
         <Link rel="preconnect" href="https://fonts.gstatic.com" />
         <Link

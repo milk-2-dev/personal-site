@@ -1,10 +1,16 @@
 <template>
-  <SectionWrapper name="contact" id="contactForm" title="Contact form." :desc="sectionDesc">
+  <SectionWrapper
+    name="contact"
+    id="contactForm"
+    title="Contact form."
+    :desc="sectionDesc"
+  >
     <div class="px-4 mx-auto max-w-screen-md">
       <form @submit.prevent="onSubmit" class="space-y-6">
         <div class="flex gap-6">
           <div class="basis-1/2">
             <FormInput
+              ref="nameInput"
               name="contactFormName"
               label="Your name"
               placeholder="Please write your name"
@@ -137,7 +143,24 @@ import {
 } from "@/components/ui/dialog";
 import SectionWrapper from "@/components/sections/SectionWrapper.vue";
 
-const sectionDesc = "If you have any questions, suggestions, or just want to get in touch, please fill out the form below and I will respond as soon as possible.";
+const nameInput: Ref<{ inputRef: HTMLInputElement | null } | null> = ref(null);
+
+const route = useRoute();
+
+watch(
+  () => route.hash,
+  (newHash, oldHash) => {
+    if (newHash === "#contactForm") {
+      nameInput.value?.inputRef?.focus();
+    } else {
+      nameInput.value?.inputRef?.blur();
+    }
+  },
+  { immediate: true }
+);
+
+const sectionDesc =
+  "If you have any questions, suggestions, or just want to get in touch, please fill out the form below and I will respond as soon as possible.";
 
 const schema = object({
   name: string().required("Name is required").min(2),
