@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper name="skills" title="Skills" :desc="sectionDesc">
+  <SectionWrapper name="skills" title="Skills." :desc="sectionDesc">
     <div
       class="gap-8 grid grid-cols-1 sm:grid-cols-2 xl:gap-16"
     >
