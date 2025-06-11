@@ -163,7 +163,7 @@ watch(
 const sectionDesc =
   "If you have any questions, suggestions, or just want to get in touch, please fill out the form below and I will respond as soon as possible.";
 
-const { handleSubmit } = useForm({
+const { handleSubmit, resetField } = useForm({
   validationSchema: contactSchema,
 });
 
@@ -193,6 +193,10 @@ const onSubmit = handleSubmit(async (values) => {
     dialogMessage.value =
       response.data.value?.message ||
       "Great! Your message has been successfully sent.";
+
+    localStorage.setItem("contact_name", values.name);
+    localStorage.setItem("contact_email", values.email);
+    resetField("message");
   } catch (err) {
     console.error("Помилка при відправці форми:", err);
 
@@ -202,6 +206,14 @@ const onSubmit = handleSubmit(async (values) => {
     showDialog.value = true;
     isPending.value = false;
   }
+});
+
+onMounted(() => {
+  const savedName = localStorage.getItem("contact_name");
+  const savedEmail = localStorage.getItem("contact_email");
+
+  if (savedName) name.value = savedName;
+  if (savedEmail) email.value = savedEmail;
 });
 </script>
 
