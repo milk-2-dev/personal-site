@@ -14,7 +14,7 @@
       class="block p-3 w-full rounded-lg border shadow-sm text-sm text-gray-900 bg-gray-50 border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
       :class="[isError ? errorInputClass : activeInputClass]"
       :placeholder="placeholder || `Please write ${label.toLowerCase()}`"
-      v-model="model"
+      v-model.trim="model"
     />
 
     <textarea
@@ -25,7 +25,7 @@
       class="block p-3 w-full rounded-lg border shadow-sm text-sm text-gray-900 bg-gray-50 border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
       :class="[isError ? errorInputClass : activeInputClass]"
       :placeholder="placeholder || `Please write ${label.toLowerCase()}`"
-      v-model="model"
+      v-model.trim="model"
     />
 
     <transition name="fade">

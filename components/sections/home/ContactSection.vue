@@ -122,9 +122,7 @@
     >
       <DialogContent>
         <DialogHeader>
-          <DialogTitle
-            >Great! Your message has been successfully sent.</DialogTitle
-          >
+          <DialogTitle>{{ dialogMessage }}</DialogTitle>
         </DialogHeader>
       </DialogContent>
     </Dialog>
@@ -132,7 +130,7 @@
 </template>
 
 <script lang="ts" setup>
-import { object, string, type InferType } from "yup";
+import { bool, object, string, type InferType } from "yup";
 import { useForm, useField } from "vee-validate";
 import FormInput from "~/components/ui/form/FormInput.vue";
 import {
@@ -142,6 +140,9 @@ import {
   DialogTitle,
 } from "@/components/ui/dialog";
 import SectionWrapper from "@/components/sections/SectionWrapper.vue";
+
+import { contactSchema } from "@/lib/validators/contactSchema";
+import type { ContactFormInput, ContactFormResponse } from "@/types/contact";
 
 const nameInput: Ref<{ inputRef: HTMLInputElement | null } | null> = ref(null);
 
@@ -162,16 +163,8 @@ watch(
 const sectionDesc =
   "If you have any questions, suggestions, or just want to get in touch, please fill out the form below and I will respond as soon as possible.";
 
-const schema = object({
-  name: string().required("Name is required").min(2),
-  email: string().required("Email is required").email(),
-  message: string().required("The message cannot be empty").min(10),
-});
-
-type Schema = InferType<typeof schema>;
-
 const { handleSubmit } = useForm({
-  validationSchema: schema,
+  validationSchema: contactSchema,
 });
 
 const { value: name, errorMessage: nameError } = useField("name", {
@@ -180,21 +173,35 @@ const { value: name, errorMessage: nameError } = useField("name", {
 const { value: email, errorMessage: emailError } = useField("email");
 const { value: message, errorMessage: messageError } = useField("message");
 
-const isPending = ref(false);
-const showDialog = ref(false);
+const isPending: Ref<Boolean> = ref(false);
+const showDialog: Ref<Boolean> = ref(false);
+const dialogMessage: Ref<String> = ref("");
 
-const onSubmit = handleSubmit(async (values, actions) => {
-  console.log("Дані з форми:", values);
+const onSubmit = handleSubmit(async (values) => {
   isPending.value = true;
 
-  // Симуляція відправки
-  await new Promise((resolve) => setTimeout(resolve, 1500));
-  console.log("Надіслано!", values);
+  try {
+    const response = await useFetch<ContactFormResponse>("/api/contact", {
+      method: "POST",
+      body: values,
+    });
 
-  showDialog.value = true;
-  // actions.resetForm();
+    if (response.error.value) {
+      throw response.error.value;
+    }
 
-  isPending.value = false;
+    dialogMessage.value =
+      response.data.value?.message ||
+      "Great! Your message has been successfully sent.";
+  } catch (err) {
+    console.error("Помилка при відправці форми:", err);
+
+    dialogMessage.value =
+      `${err?.statusMessage}` || "An error occurred. Please try again.";
+  } finally {
+    showDialog.value = true;
+    isPending.value = false;
+  }
 });
 </script>
 
