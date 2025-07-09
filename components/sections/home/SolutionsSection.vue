@@ -1,19 +1,21 @@
 <template>
   <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+    <div
+      class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6"
+    >
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
         <div class="text-gray-500 sm:text-lg dark:text-gray-400">
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            Web Frontend development
+            Frontend Architecture Solutions
           </h2>
           <p class="mb-8 font-light lg:text-xl">
-            Creating modern and productive websites and web applications that
-            provide a convenient and seamless user experience across all
-            devices. From responsive design to e-commerce solutions, I develop
-            websites that are not only visually appealing, but also efficient,
-            SEO-friendly, and contribute to the growth of your business.
+            Development of a reliable, scalable, and easy-to-maintain frontend
+            architecture. Choosing the best technologies, thinking through the
+            project structure, implementing modern approaches to the
+            organization of code, state, load, and design systems. Everything is
+            for fast development and stable operation of the product.
           </p>
           <!-- List -->
           <ul
@@ -29,7 +31,8 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Interactive UI/UX with a modern design
+                >Choosing frameworks and technologies (React, Vue, Next.js,
+                SSR/SPA, TypeScript).
               </span>
             </li>
             <li class="flex space-x-3">
@@ -41,8 +44,9 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Responsive, cross-browser and accessible website</span
-              >
+                >Designing the code structure, separation of modules, layers
+                (UI/state/data/services).
+              </span>
             </li>
             <li class="flex space-x-3">
               <font-awesome
@@ -53,8 +57,9 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Performance optimization and SEO</span
-              >
+                >Selection and implementation of scaling strategies, lazy
+                loading, micro frontends
+              </span>
             </li>
             <li class="flex space-x-3">
               <font-awesome
@@ -65,21 +70,22 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Business growth</span
-              >
+                >Building a design system or integrating with a third-party one
+                (for example, Storybook + Figma).
+              </span>
             </li>
           </ul>
         </div>
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="/images/solution1.svg"
+          src="/images/architectureSolutions.svg"
           alt="dashboard feature image"
         />
       </div>
       <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="/images/solution1.svg"
+          src="/images/productOrientedSolutions.svg"
           alt="dashboard feature image"
         />
         <div class="text-gray-500 sm:text-lg dark:text-gray-400">

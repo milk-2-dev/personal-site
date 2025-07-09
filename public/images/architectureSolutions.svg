@@ -1,0 +1,625 @@
+<svg viewBox="0 0 640 465" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="Frame 27">
+    <g id="Frame 28">
+      <path id="Vector"
+        d="M132 86V76L120.705 72.235C120.14 70.375 119.395 68.595 118.5 66.905L123.83 56.25L116.75 49.17L106.095 54.5C104.405 53.61 102.625 52.875 100.765 52.295L97 41H87L83.235 52.295C81.375 52.86 79.595 53.61 77.905 54.5L67.25 49.19L60.19 56.25L65.52 66.905C64.61 68.595 63.875 70.375 63.295 72.235L52 76V86L63.295 89.765C63.855 91.625 64.61 93.405 65.5 95.095L60.17 105.75L67.25 112.83L77.905 107.5C79.595 108.39 81.375 109.14 83.235 109.705L87 121H97L100.765 109.705C102.625 109.14 104.405 108.395 106.095 107.5L116.75 112.83L123.83 105.75L118.5 95.095C119.39 93.41 120.14 91.625 120.705 89.765L132 86ZM92 96C83.72 96 77 89.28 77 81C77 72.72 83.72 66 92 66C100.28 66 107 72.72 107 81C107 89.28 100.28 96 92 96Z"
+        fill="#9438FC">
+        <animateTransform attributeName="transform" type="rotate" from="0 92 81" to="360 92 81" dur="14s"
+          repeatCount="indefinite" calcMode="linear"></animateTransform>
+      </path>
+    </g>
+    <path id="Vector_2"
+      d="M163.889 344.541V331.088L148.656 326.022C147.894 323.52 146.889 321.125 145.682 318.852L152.871 304.517L143.322 294.992L128.953 302.162C126.674 300.965 124.273 299.976 121.765 299.196L116.687 284H103.201L98.1238 299.196C95.6154 299.956 93.2149 300.965 90.9357 302.162L76.5663 295.019L67.0451 304.517L74.2332 318.852C73.006 321.125 72.0147 323.52 71.2325 326.022L56 331.088V344.541L71.2325 349.607C71.9878 352.109 73.006 354.504 74.2062 356.778L67.0181 371.112L76.5663 380.638L90.9357 373.467C93.2149 374.664 95.6154 375.673 98.1238 376.433L103.201 391.629H116.687L121.765 376.433C124.273 375.673 126.674 374.671 128.953 373.467L143.322 380.638L152.871 371.112L145.682 356.778C146.883 354.511 147.894 352.109 148.656 349.607L163.889 344.541ZM109.944 357.995C98.7779 357.995 89.7152 348.954 89.7152 337.815C89.7152 326.675 98.7779 317.634 109.944 317.634C121.111 317.634 130.173 326.675 130.173 337.815C130.173 348.954 121.111 357.995 109.944 357.995Z"
+      fill="#569CD6">
+      <animateTransform attributeName="transform" type="rotate" from="0 109.944 337.815" to="-360 109.944 337.815"
+        dur="8s" repeatCount="indefinite" calcMode="linear">
+      </animateTransform>
+    </path>
+    <path id="Vector_3"
+      d="M572 168.688V164.312L567.058 162.665C566.811 161.852 566.485 161.073 566.094 160.333L568.426 155.672L565.328 152.574L560.667 154.906C559.927 154.517 559.148 154.195 558.335 153.942L556.688 149H552.312L550.665 153.942C549.852 154.189 549.073 154.517 548.333 154.906L543.672 152.583L540.583 155.672L542.915 160.333C542.517 161.073 542.195 161.852 541.942 162.665L537 164.312V168.688L541.942 170.335C542.187 171.148 542.517 171.927 542.906 172.667L540.574 177.328L543.672 180.426L548.333 178.094C549.073 178.483 549.852 178.811 550.665 179.058L552.312 184H556.688L558.335 179.058C559.148 178.811 559.927 178.485 560.667 178.094L565.328 180.426L568.426 177.328L566.094 172.667C566.483 171.929 566.811 171.148 567.058 170.335L572 168.688ZM554.5 173.062C550.877 173.062 547.938 170.123 547.938 166.5C547.938 162.877 550.877 159.938 554.5 159.938C558.123 159.938 561.062 162.877 561.062 166.5C561.062 170.123 558.123 173.062 554.5 173.062Z"
+      fill="#9538FC">
+      <animateTransform attributeName="transform" type="rotate" from="0 554.5 166.5" to="360 554.5 166.5" dur="5s"
+        repeatCount="indefinite" calcMode="linear">
+      </animateTransform>
+    </path>
+    <path id="Vector_4"
+      d="M593.312 175.203L592.237 172.269L588.518 172.379C588.152 171.894 587.742 171.452 587.298 171.053L587.716 167.353L584.877 166.037L582.324 168.747C581.732 168.667 581.131 168.643 580.523 168.673L578.204 165.764L575.269 166.839L575.379 170.558C574.894 170.924 574.453 171.336 574.053 171.779L570.355 171.366L569.043 174.197L571.753 176.75C571.668 177.344 571.643 177.945 571.673 178.553L568.764 180.873L569.84 183.807L573.559 183.697C573.923 184.182 574.336 184.624 574.779 185.024L574.361 188.723L577.2 190.039L579.753 187.329C580.344 187.409 580.947 187.437 581.554 187.403L583.873 190.312L586.807 189.237L586.697 185.518C587.182 185.152 587.624 184.742 588.024 184.298L591.723 184.716L593.039 181.877L590.33 179.324C590.409 178.734 590.438 178.129 590.403 177.523L593.312 175.203ZM582.651 182.439C580.222 183.33 577.528 182.081 576.637 179.651C575.747 177.222 576.996 174.527 579.425 173.637C581.855 172.746 584.549 173.995 585.439 176.425C586.33 178.854 585.081 181.549 582.651 182.439Z"
+      fill="#596CEA">
+      <animateTransform attributeName="transform" type="rotate" from="0 581.038 177.9015" to="-360 581.038 177.9015"
+        dur="5s" repeatCount="indefinite" calcMode="linear">
+      </animateTransform>
+    </path>
+    <g id="Browser window" filter="url(#filter0_d_259_699)">
+      <g clip-path="url(#clip0_259_699)">
+        <g id="VS code" clip-path="url(#clip1_259_699)">
+          <rect width="440" height="270" transform="translate(89 89)" fill="black"></rect>
+          <g id="FilesBar">
+            <mask id="path-6-inside-1_259_699" fill="white">
+              <path d="M114 89H209V359H114V89Z"></path>
+            </mask>
+            <path d="M114 89H209V359H114V89Z" fill="#181818"></path>
+            <path d="M209 89H208V359H209H210V89H209Z" fill="#252525" mask="url(#path-6-inside-1_259_699)"></path>
+            <g id="FileBarGroup">
+              <mask id="path-8-inside-2_259_699" fill="white">
+                <path d="M114 95H209V140H114V95Z"></path>
+              </mask>
+              <path d="M209 140V139H114V140V141H209V140Z" fill="#252525" mask="url(#path-8-inside-2_259_699)"></path>
+              <g id="FileBarGroupTitle">
+                <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" dur="0.5s"
+                  fill="freeze"></animateTransform>
+                <rect id="Rectangle 29" x="118" y="99" width="6" height="6" fill="#C8C8C5"></rect>
+                <rect id="Rectangle 30" x="128" y="99" width="30" height="6" fill="#C8C8C5"></rect>
+                <rect id="Rectangle 31" x="162" y="99" width="20" height="6" fill="#C8C8C5"></rect>
+              </g>
+              <g id="FileBarGroupList">
+                <g id="FileBarListItem">
+                  <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                    dur="0.5s" fill="freeze"></animateTransform>
+                  <rect id="Rectangle 30_2" x="134" y="109" width="30" height="6" fill="#B1B0B5"></rect>
+                  <rect id="Rectangle 31_2" x="166" y="109" width="10" height="6" fill="#B1B0B5"></rect>
+                </g>
+                <g id="FileBarListItem_2">
+                  <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                    dur="0.5s" fill="freeze"></animateTransform>
+                  <rect id="Rectangle 30_3" x="134" y="119" width="30" height="6" fill="#B1B0B5"></rect>
+                  <rect id="Rectangle 32" x="166" y="119" width="13" height="6" fill="#B1B0B5"></rect>
+                  <rect id="Rectangle 31_3" x="181" y="119" width="10" height="6" fill="#B1B0B5"></rect>
+                </g>
+                <g id="FileBarListItem_3">
+                  <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                    dur="0.5s" fill="freeze"></animateTransform>
+                  <rect id="Rectangle 30_4" x="134" y="129" width="49" height="6" fill="#B1B0B5"></rect>
+                  <rect id="Rectangle 31_4" x="185" y="129" width="10" height="6" fill="#B1B0B5"></rect>
+                </g>
+              </g>
+            </g>
+            <g id="FileBarGroup_2">
+              <g clip-path="url(#clip2_259_699)">
+                <mask id="path-20-inside-3_259_699" fill="white">
+                  <path d="M114 140H209V327H114V140Z"></path>
+                </mask>
+                <g id="FileBarGroupTitle_2">
+                  <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" dur="0.5s"
+                    fill="freeze"></animateTransform>
+                  <rect id="Rectangle 29_2" x="118" y="144" width="6" height="6" fill="#C8C8C5"></rect>
+                  <rect id="Rectangle 30_5" x="128" y="144" width="34" height="6" fill="#C8C8C5"></rect>
+                  <rect id="Rectangle 31_5" x="166" y="144" width="27" height="6" fill="#C8C8C5"></rect>
+                </g>
+                <g id="FileBarGroupList_2">
+                  <g id="FileBarListItem_4">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_6" x="134" y="154" width="30" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_6" x="166" y="154" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_5">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_7" x="134" y="164" width="30" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_7" x="166" y="164" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_6">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_8" x="134" y="174" width="49" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_8" x="185" y="174" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_7">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_9" x="134" y="184" width="24" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 32_2" x="160" y="184" width="20" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_9" x="182" y="184" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_8">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_10" x="134" y="194" width="37" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_10" x="173" y="194" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_9">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_11" x="134" y="204" width="15" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_11" x="151" y="204" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_10">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_12" x="134" y="214" width="50" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_12" x="186" y="214" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_11">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_13" x="134" y="224" width="49" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_13" x="185" y="224" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_12">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_14" x="134" y="234" width="30" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 32_3" x="166" y="234" width="18" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_14" x="186" y="234" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_13">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_15" x="134" y="244" width="30" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_15" x="166" y="244" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_14">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_16" x="134" y="254" width="17" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_16" x="153" y="254" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_15">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_17" x="134" y="264" width="30" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_17" x="166" y="264" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_16">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_18" x="134" y="274" width="42" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_18" x="178" y="274" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_17">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_19" x="134" y="284" width="30" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_19" x="166" y="284" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_18">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_20" x="134" y="294" width="18" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 32_4" x="154" y="294" width="18" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_20" x="174" y="294" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_19">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_21" x="134" y="304" width="50" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_21" x="186" y="304" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_20">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_22" x="134" y="314" width="12" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_22" x="148" y="314" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                  <g id="FileBarListItem_21">
+                    <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" delay="0.2s"
+                      dur="0.5s" fill="freeze"></animateTransform>
+                    <rect id="Rectangle 30_23" x="134" y="324" width="30" height="6" fill="#B1B0B5"></rect>
+                    <rect id="Rectangle 31_23" x="166" y="324" width="10" height="6" fill="#B1B0B5"></rect>
+                  </g>
+                </g>
+              </g>
+              <path d="M209 327V326H114V327V328H209V327Z" fill="#252525" mask="url(#path-20-inside-3_259_699)"></path>
+            </g>
+            <g id="FileBarGroup_3">
+              <mask id="path-64-inside-4_259_699" fill="white">
+                <path d="M114 327H209V342H114V327Z"></path>
+              </mask>
+              <path d="M209 342V341H114V342V343H209V342Z" fill="#252525" mask="url(#path-64-inside-4_259_699)"></path>
+              <g id="FileBarGroupTitle_3">
+                <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" dur="0.5s"
+                  fill="freeze"></animateTransform>
+                <rect id="Rectangle 29_3" x="118" y="331" width="6" height="6" fill="#C8C8C5"></rect>
+                <rect id="Rectangle 30_24" x="128" y="331" width="30" height="6" fill="#C8C8C5"></rect>
+              </g>
+            </g>
+            <g id="FileBarGroup_4">
+              <mask id="path-68-inside-5_259_699" fill="white">
+                <path d="M114 342H209V357H114V342Z"></path>
+              </mask>
+              <path d="M209 357V356H114V357V358H209V357Z" fill="#252525" mask="url(#path-68-inside-5_259_699)"></path>
+              <g id="FileBarGroupTitle_4">
+                <animateTransform attributeName="transform" type="translate" from="-95 0" to="0 0" dur="0.5s"
+                  fill="freeze"></animateTransform>
+                <rect id="Rectangle 29_4" x="118" y="346" width="6" height="6" fill="#C8C8C5"></rect>
+                <rect id="Rectangle 30_25" x="128" y="346" width="36" height="6" fill="#C8C8C5"></rect>
+              </g>
+            </g>
+          </g>
+          <g id="ToolsBar">
+            <mask id="path-72-inside-6_259_699" fill="white">
+              <path d="M89 89H113V359H89V89Z"></path>
+            </mask>
+            <path d="M89 89H113V359H89V89Z" fill="#181818"></path>
+            <path d="M113 89H112V359H113H114V89H113Z" fill="#252525" mask="url(#path-72-inside-6_259_699)"></path>
+
+            <rect id="Rectangle 22" x="96" y="99" width="10" height="10" rx="2" fill="#858585">
+              <animate attributeName="opacity" from="0" to="1" dur="1s" />
+            </rect>
+
+            <rect id="Rectangle 23" x="96" y="119" width="10" height="10" rx="2" fill="#858585">
+              <animate attributeName="opacity" from="0" to="1" dur="1s" />
+            </rect>
+
+            <rect id="Rectangle 23_2" x="96" y="139" width="10" height="10" rx="2" fill="#858585">
+              <animate attributeName="opacity" from="0" to="1" dur="1s" />
+            </rect>
+            <rect id="Rectangle 24" x="96" y="159" width="10" height="10" rx="2" fill="#858585">
+              <animate attributeName="opacity" from="0" to="1" dur="1s" />
+            </rect>
+            <rect id="Rectangle 25" x="96" y="179" width="10" height="10" rx="2" fill="#858585">
+              <animate attributeName="opacity" from="0" to="1" dur="1s" />
+            </rect>
+
+            <rect id="Rectangle 27" x="96" y="199" width="10" height="10" rx="2" fill="#858585">
+              <animate attributeName="opacity" from="0" to="1" dur="1s" />
+            </rect>
+
+          </g>
+          <g id="EditedFile">
+            <rect width="320" height="270" transform="translate(209 89)" fill="#1C1C1C"></rect>
+            <g id="FileCode" clip-path="url(#clip3_259_699)">
+              <g id="FileCodeLinesList">
+                <!-- Line 1 -->
+                <g id="FileBarListItem_22">
+                  <rect id="Rectangle_30_26" x="221" y="101" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="25" dur="0.3s" begin="0s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 2 -->
+                <g id="FileBarListItem_23">
+                  <rect id="Rectangle_30_27" x="228" y="109" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="25" dur="0.3s" begin="0.4s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_24" x="257" y="109" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="0.7s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_5" x="276" y="109" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="101" dur="0.5s" begin="0.9s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 3 -->
+                <g id="FileBarListItem_24">
+                  <rect id="Rectangle_30_28" x="234" y="117" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="1.4s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_25" x="253" y="117" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="20" dur="0.25s" begin="1.6s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_6" x="277" y="117" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="235" dur="0.7s" begin="1.85s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 4 -->
+                <g id="FileBarListItem_25">
+                  <rect id="Rectangle_30_29" x="240" y="125" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="2.55s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_26" x="259" y="125" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="20" dur="0.25s" begin="2.75s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_7" x="283" y="125" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="162" dur="0.5s" begin="3.0s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 5 -->
+                <g id="FileBarListItem_26">
+                  <rect id="Rectangle_30_30" x="246" y="133" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="3.5s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_27" x="265" y="133" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="3.7s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_8" x="284" y="133" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="150" dur="0.5s" begin="3.9s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 6 -->
+                <g id="FileBarListItem_27">
+                  <rect id="Rectangle_30_31" x="246" y="141" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="4.4s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 7 -->
+                <g id="FileBarListItem_28">
+                  <rect id="Rectangle_30_32" x="246" y="149" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="4.6s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 8 -->
+                <g id="FileBarListItem_29">
+                  <rect id="Rectangle_31_28" x="253" y="157" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="4.8s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_9" x="272" y="157" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="146" dur="0.5s" begin="5.0s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 9 -->
+                <g id="FileBarListItem_30">
+                  <rect id="Rectangle_31_29" x="253" y="165" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="9" dur="0.15s" begin="5.5s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_10" x="266" y="165" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="74" dur="0.4s" begin="5.65s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 10 -->
+                <g id="FileBarListItem_31">
+                  <rect id="Rectangle_31_30" x="253" y="173" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="9" dur="0.15s" begin="6.05s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_11" x="266" y="173" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="76" dur="0.4s" begin="6.2s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 11 -->
+                <g id="FileBarListItem_32">
+                  <rect id="Rectangle_30_33" x="240" y="181" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="6.6s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 12 -->
+                <g id="FileBarListItem_33">
+                  <rect id="Rectangle_30_34" x="240" y="189" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="6.8s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_31" x="259" y="189" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="20" dur="0.25s" begin="7.0s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_12" x="283" y="189" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="158" dur="0.5s" begin="7.25s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 13 -->
+                <g id="FileBarListItem_34">
+                  <rect id="Rectangle_30_35" x="247" y="197" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="7.75s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 14 -->
+                <g id="FileBarListItem_35">
+                  <rect id="Rectangle_31_32" x="253" y="205" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="7.95s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_13" x="272" y="205" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="146" dur="0.5s" begin="8.15s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 15 -->
+                <g id="FileBarListItem_36">
+                  <rect id="Rectangle_31_33" x="253" y="213" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="9" dur="0.15s" begin="8.65s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_14" x="266" y="213" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="74" dur="0.4s" begin="8.8s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 16 -->
+                <g id="FileBarListItem_37">
+                  <rect id="Rectangle_31_34" x="253" y="221" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="9" dur="0.15s" begin="9.2s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_15" x="266" y="221" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="52" dur="0.3s" begin="9.35s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 17 -->
+                <g id="FileBarListItem_38">
+                  <rect id="Rectangle_30_36" x="247" y="229" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="9.65s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_35" x="266" y="229" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="20" dur="0.25s" begin="9.85s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_16" x="290" y="229" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="143" dur="0.5s" begin="10.1s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 18 -->
+                <g id="FileBarListItem_39">
+                  <rect id="Rectangle_30_37" x="247" y="237" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="10.6s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 19 -->
+                <g id="FileBarListItem_40">
+                  <rect id="Rectangle_30_38" x="240" y="245" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="10.8s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 20 -->
+                <g id="FileBarListItem_41">
+                  <rect id="Rectangle_30_39" x="240" y="253" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="11.0s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_36" x="259" y="253" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="20" dur="0.25s" begin="11.2s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_17" x="283" y="253" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="162" dur="0.5s" begin="11.45s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 21 -->
+                <g id="FileBarListItem_42">
+                  <rect id="Rectangle_30_40" x="246" y="261" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="11.95s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_31_37" x="265" y="261" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="12.15s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_18" x="284" y="261" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="150" dur="0.5s" begin="12.35s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 22 -->
+                <g id="FileBarListItem_43">
+                  <rect id="Rectangle_30_41" x="246" y="269" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="12.85s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 23 -->
+                <g id="FileBarListItem_44">
+                  <rect id="Rectangle_30_42" x="246" y="277" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="13.05s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 24 -->
+                <g id="FileBarListItem_45">
+                  <rect id="Rectangle_31_38" x="253" y="285" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="13.25s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_19" x="272" y="285" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="146" dur="0.5s" begin="13.45s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 25 -->
+                <g id="FileBarListItem_46">
+                  <rect id="Rectangle_31_39" x="253" y="293" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="9" dur="0.15s" begin="13.95s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_20" x="266" y="293" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="74" dur="0.4s" begin="14.1s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 26 -->
+                <g id="FileBarListItem_47">
+                  <rect id="Rectangle_31_40" x="253" y="301" width="0" height="6" fill="#9CDCFE">
+                    <animate attributeName="width" from="0" to="9" dur="0.15s" begin="14.5s" fill="freeze" />
+                  </rect>
+                  <rect id="Rectangle_32_21" x="266" y="301" width="0" height="6" fill="#CE9178">
+                    <animate attributeName="width" from="0" to="76" dur="0.4s" begin="14.65s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 27 -->
+                <g id="FileBarListItem_48">
+                  <rect id="Rectangle_30_43" x="240" y="309" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="15.05s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 28 -->
+                <g id="FileBarListItem_49">
+                  <rect id="Rectangle_30_44" x="234" y="317" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="15" dur="0.2s" begin="15.25s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 29 -->
+                <g id="FileBarListItem_50">
+                  <rect id="Rectangle_30_45" x="228" y="325" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="28" dur="0.3s" begin="15.45s" fill="freeze" />
+                  </rect>
+                </g>
+
+                <!-- Line 30 -->
+                <g id="FileBarListItem_51">
+                  <rect id="Rectangle_30_46" x="221" y="333" width="0" height="6" fill="#569CD6">
+                    <animate attributeName="width" from="0" to="28" dur="0.3s" begin="15.75s" fill="freeze" />
+                  </rect>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <rect id="Window nav pannel" x="89" y="79" width="440" height="10" fill="url(#paint0_linear_259_699)"></rect>
+        <g id="Window nav buttons">
+          <circle id="Ellipse 1" cx="98" cy="84" r="2" fill="white"></circle>
+          <circle id="Ellipse 2" cx="107" cy="84" r="2" fill="white"></circle>
+          <circle id="Ellipse 3" cx="116" cy="84" r="2" fill="white"></circle>
+        </g>
+      </g>
+    </g>
+    <path
+      d="M416.812 16.7344L427.141 20.6875V24.3906L413.969 18.5781V16.125L416.812 16.7344ZM427.141 13.5L416.812 17.5156L413.969 18.0625V15.6094L427.141 9.8125V13.5ZM441.109 4.25L432.25 28.9531H429.297L438.172 4.25H441.109ZM454.266 17.3594L443.75 13.4375V9.79688L457.25 15.5938V18.0625L454.266 17.3594ZM443.75 20.7344L454.297 16.7344L457.25 16.1094V18.5625L443.75 24.375V20.7344Z"
+      fill="black">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 3 -2; -2 1; 2 3; -3 -2; 2 -1; -2 3; 3 2; -2 -3; 0 0" dur="9s" repeatCount="indefinite"
+        calcMode="linear" />
+        </path>
+    <path
+      d="M193.668 402.509L198.187 404.238V405.858L192.424 403.315V402.242L193.668 402.509ZM198.187 401.094L193.668 402.851L192.424 403.09V402.017L198.187 399.48V401.094ZM204.298 397.047L200.422 407.854H199.13L203.013 397.047H204.298ZM210.054 402.782L205.453 401.066V399.474L211.359 402.01V403.09L210.054 402.782ZM205.453 404.259L210.067 402.509L211.359 402.235V403.309L205.453 405.852V404.259Z"
+      fill="black">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -4 3; 3 -2; -3 -4; 4 3; -3 2; 3 -4; -4 -3; 3 4; 0 0" dur="12s" repeatCount="indefinite"
+        calcMode="linear" />
+        </path>
+    <path
+      d="M385.254 424.604V426.42H383.652V442.357H385.254V444.184H381.299V424.604H385.254ZM390.518 426.42V424.604H394.492V444.184H390.518V442.357H392.139V426.42H390.518Z"
+      fill="black">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; -3 2; 2 -1; -2 -3; 3 2; -2 1; 2 -3; -3 -2; 2 3; 0 0" dur="14s" repeatCount="indefinite"
+        calcMode="linear" />
+        </path>
+    <path
+      d="M581.711 272.938L581.43 284.973H579.016L578.723 272.938H581.711ZM578.641 288.664C578.641 288.234 578.781 287.875 579.062 287.586C579.352 287.289 579.75 287.141 580.258 287.141C580.758 287.141 581.152 287.289 581.441 287.586C581.73 287.875 581.875 288.234 581.875 288.664C581.875 289.078 581.73 289.434 581.441 289.73C581.152 290.02 580.758 290.164 580.258 290.164C579.75 290.164 579.352 290.02 579.062 289.73C578.781 289.434 578.641 289.078 578.641 288.664ZM595.199 278.539V280.859H585.027V278.539H595.199ZM595.199 283.508V285.828H585.027V283.508H595.199ZM608.699 278.539V280.859H598.527V278.539H608.699ZM608.699 283.508V285.828H598.527V283.508H608.699Z"
+      fill="black">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 3 -3; -3 2; 3 3; -3 -2; 2 -1; -3 3; 3 2; -2 -3; 0 0" dur="8s" repeatCount="indefinite"
+        calcMode="linear" />
+      </path>
+    <path
+      d="M221.918 42.4043L222.387 43.7422C221.716 43.9701 221.254 44.3737 221 44.9531C220.753 45.5326 220.629 46.1966 220.629 46.9453V48.957C220.629 49.6081 220.489 50.2005 220.209 50.7344C219.936 51.2682 219.499 51.6914 218.9 52.0039C218.301 52.3164 217.517 52.4727 216.547 52.4727V51.125C217.217 51.125 217.699 50.9297 217.992 50.5391C218.285 50.1484 218.432 49.6211 218.432 48.957V46.9453C218.432 46.2617 218.536 45.6237 218.744 45.0312C218.959 44.4323 219.32 43.9082 219.828 43.459C220.336 43.0033 221.033 42.6517 221.918 42.4043ZM222.387 60.207L221.918 61.5547C221.033 61.3008 220.336 60.946 219.828 60.4902C219.32 60.041 218.959 59.5169 218.744 58.918C218.536 58.3255 218.432 57.6875 218.432 57.0039V55.0117C218.432 54.5625 218.367 54.1784 218.236 53.8594C218.106 53.5339 217.901 53.2832 217.621 53.1074C217.348 52.9251 216.99 52.834 216.547 52.834V51.4766C217.517 51.4766 218.301 51.6361 218.9 51.9551C219.499 52.2676 219.936 52.6908 220.209 53.2246C220.489 53.752 220.629 54.3477 220.629 55.0117V57.0039C220.629 57.5052 220.681 57.9674 220.785 58.3906C220.896 58.8203 221.078 59.1914 221.332 59.5039C221.592 59.8164 221.944 60.0508 222.387 60.207ZM227.934 43.7422L228.402 42.4043C229.294 42.6517 229.994 43.0033 230.502 43.459C231.01 43.9082 231.368 44.4323 231.576 45.0312C231.785 45.6237 231.889 46.2617 231.889 46.9453V48.957C231.889 49.3932 231.954 49.7741 232.084 50.0996C232.214 50.4251 232.419 50.679 232.699 50.8613C232.979 51.0371 233.34 51.125 233.783 51.125V52.4141C232.82 52.4141 232.035 52.2643 231.43 51.9648C230.824 51.6589 230.382 51.2454 230.102 50.7246C229.828 50.1973 229.691 49.6081 229.691 48.957V46.9453C229.691 46.444 229.639 45.9785 229.535 45.5488C229.431 45.1191 229.249 44.748 228.988 44.4355C228.734 44.123 228.383 43.8919 227.934 43.7422ZM228.402 61.5547L227.934 60.207C228.383 60.0508 228.734 59.8164 228.988 59.5039C229.242 59.1914 229.421 58.8203 229.525 58.3906C229.636 57.9674 229.691 57.5052 229.691 57.0039V55.0117C229.691 54.3477 229.828 53.7552 230.102 53.2344C230.382 52.7135 230.824 52.3034 231.43 52.0039C232.035 51.6979 232.82 51.5449 233.783 51.5449V52.834C233.119 52.834 232.637 53.0326 232.338 53.4297C232.038 53.8203 231.889 54.3477 231.889 55.0117V57.0039C231.889 57.6875 231.785 58.3255 231.576 58.918C231.368 59.5169 231.01 60.041 230.502 60.4902C229.994 60.946 229.294 61.3008 228.402 61.5547Z"
+      fill="black">
+      <animateTransform attributeName="transform" type="translate"
+        values="0 0; 3 -3; -3 3; 3 3; -3 -3; 2 -2; -2 3; 3 2; -2 -3; 0 0" dur="10s" repeatCount="indefinite"
+        calcMode="linear" />
+      </path>
+  </g>
+  <defs>
+    <filter id="filter0_d_259_699" x="85" y="79" width="448" height="288" filterUnits="userSpaceOnUse"
+      color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        result="hardAlpha"></feColorMatrix>
+      <feOffset dy="4"></feOffset>
+      <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+      <feComposite in2="hardAlpha" operator="out"></feComposite>
+      <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"></feColorMatrix>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_259_699"></feBlend>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_259_699" result="shape"></feBlend>
+    </filter>
+    <linearGradient id="paint0_linear_259_699" x1="89" y1="84" x2="529" y2="84" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#18A5D7"></stop>
+      <stop offset="1" stop-color="#9537FC"></stop>
+    </linearGradient>
+    <clipPath id="clip0_259_699">
+      <rect x="89" y="79" width="440" height="280" rx="2" fill="white"></rect>
+    </clipPath>
+    <clipPath id="clip1_259_699">
+      <rect width="440" height="270" fill="white" transform="translate(89 89)"></rect>
+    </clipPath>
+    <clipPath id="clip2_259_699">
+      <path d="M114 140H209V327H114V140Z" fill="white"></path>
+    </clipPath>
+    <clipPath id="clip3_259_699">
+      <rect width="300" height="250" fill="white" transform="translate(219 99)"></rect>
+    </clipPath>
+  </defs>
+</svg>
