@@ -79,14 +79,20 @@
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
           src="/images/architectureSolutions.svg"
-          alt="dashboard feature image"
+          sizes="584px sm:607px md:480px"
+          width="607"
+          height="442"
+          alt="Image of Frontend Architecture Solutions"
         />
       </div>
       <div class="items-center gap-8 grid grid-cols-1 sm:grid-cols-2 xl:gap-16">
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
           src="/images/productOrientedSolutions.svg"
-          alt="dashboard feature image"
+          sizes="584px sm:607px md:480px"
+          width="607"
+          height="442"
+          alt="Image of Product-Oriented Solutions"
         />
         <div class="text-gray-500 order-first sm:order-2 sm:text-lg dark:text-gray-400">
           <h2
@@ -262,7 +268,10 @@
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
           src="/images/teamAndProcessSolutions.svg"
-          alt="dashboard feature image"
+          sizes="584px sm:607px md:480px"
+          width="607"
+          height="442"
+          alt="Image of Team & Process Solutions"
         />
       </div>
     </div>
