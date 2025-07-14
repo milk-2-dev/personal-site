@@ -35,7 +35,7 @@ useHead({
     <HeroSection />
     <PromoSection />
     <AboutSection />
-    <!-- <SolutionsSection /> -->
+    <SolutionsSection />
     <SkillsSection />
     <!-- <PortfolioSection /> -->
     <!-- <BlogSection /> -->
