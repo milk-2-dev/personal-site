@@ -18,7 +18,7 @@
         </ClientOnly>
       </div>
       <div
-        class="col-span-2 space-y-8 grid grid-cols-2 gap-12 space-y-0"
+        class="col-span-2 grid grid-cols-2 gap-12"
       >
         <div>
           <font-awesome
