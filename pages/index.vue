@@ -22,12 +22,15 @@ useHead({
   <div>
     <Html lang="en">
       <Head>
-        <Title>Senior frontend developer | HTML/CSS, JavaScript, Typescript, React, Vue, Next, Nuxt</Title>
-        <Link rel="preconnect" href="https://fonts.googleapis.com" />
-        <Link rel="preconnect" href="https://fonts.gstatic.com" />
-        <Link
+        <Title
+          >Senior frontend developer | HTML/CSS, JavaScript, Typescript, React,
+          Vue, Next, Nuxt</Title
+        >
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap"
           rel="stylesheet"
-          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         />
       </Head>
     </Html>
