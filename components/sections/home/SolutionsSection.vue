@@ -236,18 +236,6 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Techboard planning, reducing tech debt</span
-              >
-            </li>
-            <li class="flex space-x-3">
-              <font-awesome
-                class="text-primary"
-                :icon="['fas', 'circle-check']"
-                size="1x"
-              />
-
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
                 >Communication with backend, designers, PMs</span
               >
             </li>
