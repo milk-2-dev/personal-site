@@ -66,7 +66,7 @@ import { TextGenerateEffect } from "@/components/ui/text";
 import SectionWrapper from "@/components/sections/SectionWrapper.vue";
 
 const expirienceYears = computed(() => {
-  const startYear = new Date("01.01.2017").getFullYear();
+  const startYear = new Date("01/01/2017").getFullYear();
   const currentYear = new Date().getFullYear();
 
   return currentYear - startYear;
