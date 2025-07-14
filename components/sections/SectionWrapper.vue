@@ -38,7 +38,7 @@ const props = withDefaults(defineProps<Props>(), {
   desc: "",
 });
 
-const grayBlocks: SectionName[] = ["about", "contact"];
+const grayBlocks: SectionName[] = ["about", "skills"];
 
 const bgClass = computed(() => {
   if (!props.name) {
