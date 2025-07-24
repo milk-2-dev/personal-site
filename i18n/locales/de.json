@@ -60,6 +60,26 @@
     "skillsSection": {
       "title": "Fähigkeiten",
       "description": "Ich arbeite seit langer Zeit mit den folgenden Technologien und verbessere meine Fähigkeiten in diesen Bereichen ständig."
+    },
+    "contactSection": {
+      "title": "Kontaktformular",
+      "description": "Wenn Sie Fragen oder Anregungen haben oder einfach nur Kontakt aufnehmen möchten, füllen Sie bitte das untenstehende Formular aus. Ich werde Ihnen so schnell wie möglich antworten.",
+      "form": {
+        "name": {
+          "label": "Ihr Name",
+          "placeholder": "Bitte geben Sie Ihren Namen ein"
+        },
+        "email": {
+          "label": "Ihre E-Mail-Adresse",
+          "placeholder": "Bitte geben Sie Ihre E-Mail-Adresse ein"
+        },
+        "message": {
+          "label": "Ihre Nachricht",
+          "placeholder": "Bitte geben Sie Ihre Nachricht ein"
+        },
+        "sendButton": "Nachricht senden",
+        "sendButtonPending": "Senden"
+      }
     }
   },
   "footer": {

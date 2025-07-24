@@ -60,6 +60,26 @@
     "skillsSection": {
       "title": "Skills",
       "description": "I have been working with the following technologies for a long time, and I am constantly improving my skills in them."
+    },
+    "contactSection": {
+      "title": "Contact form",
+      "description": "If you have any questions, suggestions, or just want to get in touch, please fill out the form below and I will respond as soon as possible.",
+      "form": {
+        "name": {
+          "label": "Your name",
+          "placeholder": "Please write your name"
+        },
+        "email": {
+          "label": "Your email",
+          "placeholder": "Please write your email"
+        },
+        "message": {
+          "label": "Your message",
+          "placeholder": "Please write your message"
+        },
+        "sendButton": "Send message",
+        "sendButtonPending": "Sending"
+      }
     }
   },
   "footer": {
