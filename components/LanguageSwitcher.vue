@@ -7,7 +7,7 @@
     </SelectTrigger>
     <SelectContent>
       <SelectGroup>
-        <SelectLabel>Languages:</SelectLabel>
+        <SelectLabel>{{ $t('common.languages') }}:</SelectLabel>
         <SelectItem
           v-for="locale in locales"
           :key="locale.code"

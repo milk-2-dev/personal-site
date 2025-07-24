@@ -1,8 +1,6 @@
 {
   "common": {
-    "language": "Language",
-    "submit": "Submit",
-    "cancel": "Cancel"
+    "languages": "Languages"
   },
   "navbar": {
     "home": "Home",
