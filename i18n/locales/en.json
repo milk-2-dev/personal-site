@@ -28,6 +28,34 @@
       "numbers_1": "Years of experience in front-end development.",
       "numbers_2": "Projects that have been successfully completed.",
       "numbers_3": "Leadership experience in a team."
+    },
+    "solutionsSection": {
+      "architecture": {
+        "title": "Frontend Architecture Solutions",
+        "description": "Development of a reliable, scalable, and easy-to-maintain frontend architecture. Choosing the best technologies, thinking through the project structure, implementing modern approaches to the organization of code, state, load, and design systems. Everything is for fast development and stable operation of the product.",
+        "feature_1": "Choosing frameworks and technologies (React, Vue, Next.js, SSR/SPA, TypeScript)",
+        "feature_2": "Designing the code structure, separation of modules, layers (UI/state/data/services)",
+        "feature_3": "Selection and implementation of scaling strategies, lazy loading, micro frontends",
+        "feature_4": "Building a design system or integrating with a third-party one (for example, Storybook + Figma)"
+      },
+      "product": {
+        "title": "Product-Oriented Solutions",
+        "description": "Improving the quality of the interface and user experience to make the product fast, convenient, and efficient.",
+        "feature_1": "Contributing to UX/UI solutions, analyzing layouts and improving",
+        "feature_2": "Optimizing performance: LCP, CLS, TTFB, loading speed",
+        "feature_3": "Setting up analytics (GA, custom events) and A/B testing",
+        "feature_4": "Implementing a system for monitoring errors and user behavior (Sentry, LogRocket)",
+        "feature_5": "Ensuring accessibility (a11y), adaptability and i18n support"
+      },
+      "process": {
+        "title": "Team & Process Solutions",
+        "description": "Assistance in building effective team processes and improving the technical culture of the project. Both with newcomers and experienced teams.",
+        "feature_1": "Code review, mentoring, onboarding",
+        "feature_2": "Setting up CI/CD, tests, code style",
+        "feature_3": "Techboard planning, reducing tech debt",
+        "feature_4": "Communication with backend, designers, PM`s",
+        "feature_5": "Participation in planning, estimates, prioritization"
+      }
     }
   },
   "footer": {

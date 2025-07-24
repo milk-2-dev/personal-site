@@ -28,6 +28,34 @@
       "numbers_1": "Jahre Erfahrung in der Frontend-Entwicklung.",
       "numbers_2": "Erfolgreich abgeschlossene Projekte.",
       "numbers_3": "Führungserfahrung in einem Team."
+    },
+    "solutionsSection": {
+      "architecture": {
+        "title": "Frontend-Architekturlösungen",
+        "description": "Entwicklung einer zuverlässigen, skalierbaren und wartungsfreundlichen Frontend-Architektur. Auswahl der besten Technologien, Durchdenken der Projektstruktur, Implementierung moderner Ansätze für die Organisation von Code, Status, Last und Designsystemen. Alles dient der schnellen Entwicklung und dem stabilen Betrieb des Produkts.",
+        "feature_1": "Auswahl von Frameworks und Technologien (React, Vue, Next.js, SSR/SPA, TypeScript)",
+        "feature_2": "Entwurf der Codestruktur, Trennung von Modulen, Schichten (UI/Status/Daten/Dienste)",
+        "feature_3": "Auswahl und Implementierung von Skalierungsstrategien, Lazy Loading, Micro-Frontends",
+        "feature_4": "Aufbau eines Designsystems oder Integration eines Systems von Drittanbietern (z. B. Storybook + Figma)"
+      },
+      "product": {
+        "title": "Produktorientierte Lösungen",
+        "description": "Verbesserung der Qualität der Benutzeroberfläche und der Benutzererfahrung, um das Produkt schnell, bequem und effizient zu machen.",
+        "feature_1": "Beitrag zu UX/UI-Lösungen, Analyse von Layouts und Verbesserung",
+        "feature_2": "Optimierung der Leistung: LCP, CLS, TTFB, Ladegeschwindigkeit",
+        "feature_3": "Einrichtung von Analysen (GA, benutzerdefinierte Ereignisse) und A/B-Tests",
+        "feature_4": "Implementierung eines Systems zur Überwachung von Fehlern und Nutzerverhalten (Sentry, LogRocket)",
+        "feature_5": "Sicherstellung der Barrierefreiheit (a11y), Anpassungsfähigkeit und i18n-Unterstützung"
+      },
+      "process": {
+        "title": "Team und Prozesslösungen",
+        "description": "Assistance in building effective team processes and improving the technical culture of the project. Both with newcomers and experienced teams.",
+        "feature_1": "Code-Review, Mentoring, Onboarding",
+        "feature_2": "Einrichtung von CI/CD, Tests, Code-Stil",
+        "feature_3": "Techboard-Planung, Reduzierung der technischen Schulden",
+        "feature_4": "Kommunikation mit Backend, Designern, PMs",
+        "feature_5": "Teilnahme an Planung, Schätzungen, Priorisierung"
+      }
     }
   },
   "footer": {

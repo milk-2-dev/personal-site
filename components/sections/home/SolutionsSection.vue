@@ -8,14 +8,10 @@
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            Frontend Architecture Solutions
+            {{ $t('home.solutionsSection.architecture.title') }}
           </h2>
           <p class="mb-8 font-light lg:text-xl">
-            Development of a reliable, scalable, and easy-to-maintain frontend
-            architecture. Choosing the best technologies, thinking through the
-            project structure, implementing modern approaches to the
-            organization of code, state, load, and design systems. Everything is
-            for fast development and stable operation of the product.
+            {{ $t('home.solutionsSection.architecture.description') }}
           </p>
           <!-- List -->
           <ul
@@ -31,8 +27,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Choosing frameworks and technologies (React, Vue, Next.js,
-                SSR/SPA, TypeScript).
+                >{{ $t('home.solutionsSection.architecture.feature_1') }}
               </span>
             </li>
             <li class="flex space-x-3">
@@ -44,8 +39,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Designing the code structure, separation of modules, layers
-                (UI/state/data/services).
+                >{{ $t('home.solutionsSection.architecture.feature_2') }}
               </span>
             </li>
             <li class="flex space-x-3">
@@ -57,8 +51,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Selection and implementation of scaling strategies, lazy
-                loading, micro frontends
+                >{{ $t('home.solutionsSection.architecture.feature_3') }}
               </span>
             </li>
             <li class="flex space-x-3">
@@ -70,8 +63,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Building a design system or integrating with a third-party one
-                (for example, Storybook + Figma).
+                >{{ $t('home.solutionsSection.architecture.feature_4') }}
               </span>
             </li>
           </ul>
@@ -94,15 +86,16 @@
           height="442"
           alt="Image of Product-Oriented Solutions"
         />
-        <div class="text-gray-500 order-first sm:order-2 sm:text-lg dark:text-gray-400">
+        <div
+          class="text-gray-500 order-first sm:order-2 sm:text-lg dark:text-gray-400"
+        >
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            Product-Oriented Solutions
+            {{ $t('home.solutionsSection.product.title') }}
           </h2>
           <p class="mb-8 font-light lg:text-xl">
-            Improving the quality of the interface and user experience to make
-            the product fast, convenient, and efficient.
+            {{ $t('home.solutionsSection.product.description') }}
           </p>
           <!-- List -->
           <ul
@@ -118,8 +111,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Contributing to UX/UI solutions, analyzing layouts and
-                improving</span
+                >{{ $t('home.solutionsSection.product.feature_1') }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -130,19 +122,7 @@
               />
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Optimizing performance: LCP, CLS, TTFB, loading speed</span
-              >
-            </li>
-            <li class="flex space-x-3">
-              <font-awesome
-                class="text-primary"
-                :icon="['fas', 'circle-check']"
-                size="1x"
-              />
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-              >
-                Setting up analytics (GA, custom events) and A/B testing</span
+                >{{ $t('home.solutionsSection.product.feature_2') }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -154,8 +134,7 @@
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
               >
-                Implementing a system for monitoring errors and user behavior
-                (Sentry, LogRocket)</span
+                {{ $t('home.solutionsSection.product.feature_3') }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -167,8 +146,19 @@
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
               >
-                Ensuring accessibility (a11y), adaptability and i18n
-                support</span
+                {{ $t('home.solutionsSection.product.feature_4') }}</span
+              >
+            </li>
+            <li class="flex space-x-3">
+              <font-awesome
+                class="text-primary"
+                :icon="['fas', 'circle-check']"
+                size="1x"
+              />
+              <span
+                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >
+                {{ $t('home.solutionsSection.product.feature_5') }}</span
               >
             </li>
           </ul>
@@ -179,12 +169,10 @@
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            Team & Process Solutions
+            {{ $t('home.solutionsSection.process.title') }}
           </h2>
           <p class="mb-8 font-light lg:text-xl">
-            Assistance in building effective team processes and improving the
-            technical culture of the project. Both with newcomers and
-            experienced teams.
+            {{ $t('home.solutionsSection.process.description') }}
           </p>
           <!-- List -->
           <ul
@@ -200,7 +188,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Code review, mentoring, onboarding</span
+                >{{ $t('home.solutionsSection.process.feature_1') }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -212,7 +200,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Setting up CI/CD, tests, code style</span
+                >{{ $t('home.solutionsSection.process.feature_2') }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -224,7 +212,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Techboard planning, reducing tech debt</span
+                >{{ $t('home.solutionsSection.process.feature_3') }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -236,7 +224,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Communication with backend, designers, PMs</span
+                >{{ $t('home.solutionsSection.process.feature_4') }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -248,7 +236,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >Participation in planning, estimates, prioritization</span
+                >{{ $t('home.solutionsSection.process.feature_5') }}</span
               >
             </li>
           </ul>
