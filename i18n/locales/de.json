@@ -17,6 +17,17 @@
       "reachMeVia": "Sie können mich erreichen unter:",
       "or": "oder",
       "contactFormButton": "Kontaktformular"
+    },
+    "aboutSection": {
+      "title": "Über",
+      "aboutMe_1": "Hallo, ich bin Roman Klimov, ein Frontend-Entwickler, dem Sie Ihr Produkt anvertrauen können.",
+      "aboutMe_2": "Seit 2017 beschäftige ich mich intensiv mit Frontend-Entwicklung unter Verwendung beliebter Frameworks und Bibliotheken, die Sie im Abschnitt „Fähigkeiten” finden.",
+      "aboutMe_3": "Ich bin spezialisiert auf UI/UX, die Entwicklung interaktiver Webanwendungen, Leistungsoptimierung und SEO. Ich helfe Unternehmen dabei, moderne, benutzerfreundliche und stilvolle Produkte zu entwickeln, die Nutzer ansprechen und die Konversionsrate steigern. 🚀",
+      "years": "Jahre",
+      "projects": "Projekte",
+      "numbers_1": "Jahre Erfahrung in der Frontend-Entwicklung.",
+      "numbers_2": "Erfolgreich abgeschlossene Projekte.",
+      "numbers_3": "Führungserfahrung in einem Team."
     }
   },
   "footer": {

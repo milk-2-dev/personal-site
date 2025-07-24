@@ -17,6 +17,17 @@
       "reachMeVia": "You can reach me via:",
       "or": "or",
       "contactFormButton": "Contact form"
+    },
+    "aboutSection": {
+      "title": "About",
+      "aboutMe_1": "Hey there, I'm Roman Klimov, a front-end developer you can trust with your product.",
+      "aboutMe_2": "Since 2017, I have been fully engaged in front-end development using popular frameworks and libraries that you can see in the skills section.",
+      "aboutMe_3": "I specialize in UI/UX, interactive web application development, performance optimization, and SEO. I help businesses get modern, user-friendly and stylish products that engage users and increase conversions. 🚀",
+      "years": "years",
+      "projects": "projects",
+      "numbers_1": "Years of experience in front-end development.",
+      "numbers_2": "Projects that have been successfully completed.",
+      "numbers_3": "Leadership experience in a team."
     }
   },
   "footer": {
