@@ -15,10 +15,30 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@vesp/nuxt-fontawesome",
     "@nuxt/image",
-    "@vee-validate/nuxt",
     "shadcn-nuxt",
+    "@vee-validate/nuxt",
     "nuxt-anchorscroll",
+    "@nuxtjs/i18n",
   ],
+  fontawesome: {
+    icons: {
+      solid: [
+        "at",
+        "chart-simple",
+        "bullhorn",
+        "chart-line",
+        "user-graduate",
+        "store",
+        "city",
+        "code",
+        "dumbbell",
+        "people-group",
+        "people-roof",
+        "circle-check",
+      ],
+      brands: ["github", "linkedin", "figma"],
+    },
+  },
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -41,23 +61,18 @@ export default defineNuxtConfig({
       ErrorMessage: "VeeErrorMessage",
     },
   },
-  fontawesome: {
-    icons: {
-      solid: [
-        "at",
-        "chart-simple",
-        "bullhorn",
-        "chart-line",
-        "user-graduate",
-        "store",
-        "city",
-        "code",
-        "dumbbell",
-        "people-group",
-        "people-roof",
-        "circle-check",
-      ],
-      brands: ["github", "linkedin", "figma"],
-    },
-  },
+  i18n: {
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
+    locales: [
+      { code: 'en', name: 'English', file: 'en.json', iso: 'en-US' },
+      { code: 'de', name: 'Deutsch', file: 'de.json', iso: 'de-DE' }
+    ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'i18n_redirected',
+      alwaysRedirect: true,
+      fallbackLocale: 'en'
+    }
+  }
 });
