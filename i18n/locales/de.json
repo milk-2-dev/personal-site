@@ -1,0 +1,86 @@
+{
+  "common": {
+    "languages": "Sprachen"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroSection": {
+      "mainTitle1": "Ich bin wie der Friseur, dem Sie Ihr Haar anvertrauen – aber ein",
+      "mainTitle2": "Frontend-Entwickler",
+      "mainTitle3": "dem Sie Ihr Produkt anvertrauen können.",
+      "reachMeVia": "Sie können mich erreichen unter:",
+      "or": "oder",
+      "contactFormButton": "Kontaktformular"
+    },
+    "aboutSection": {
+      "title": "Über",
+      "aboutMe_1": "Hallo, ich bin Roman Klimov, ein Frontend-Entwickler, dem Sie Ihr Produkt anvertrauen können.",
+      "aboutMe_2": "Seit 2017 beschäftige ich mich intensiv mit Frontend-Entwicklung unter Verwendung beliebter Frameworks und Bibliotheken, die Sie im Abschnitt „Fähigkeiten” finden.",
+      "aboutMe_3": "Ich bin spezialisiert auf UI/UX, die Entwicklung interaktiver Webanwendungen, Leistungsoptimierung und SEO. Ich helfe Unternehmen dabei, moderne, benutzerfreundliche und stilvolle Produkte zu entwickeln, die Nutzer ansprechen und die Konversionsrate steigern. 🚀",
+      "years": "Jahre",
+      "projects": "Projekte",
+      "numbers_1": "Jahre Erfahrung in der Frontend-Entwicklung.",
+      "numbers_2": "Erfolgreich abgeschlossene Projekte.",
+      "numbers_3": "Führungserfahrung in einem Team."
+    },
+    "solutionsSection": {
+      "architecture": {
+        "title": "Frontend-Architekturlösungen",
+        "description": "Entwicklung einer zuverlässigen, skalierbaren und wartungsfreundlichen Frontend-Architektur. Auswahl der besten Technologien, Durchdenken der Projektstruktur, Implementierung moderner Ansätze für die Organisation von Code, Status, Last und Designsystemen. Alles dient der schnellen Entwicklung und dem stabilen Betrieb des Produkts.",
+        "feature_1": "Auswahl von Frameworks und Technologien (React, Vue, Next.js, SSR/SPA, TypeScript)",
+        "feature_2": "Entwurf der Codestruktur, Trennung von Modulen, Schichten (UI/Status/Daten/Dienste)",
+        "feature_3": "Auswahl und Implementierung von Skalierungsstrategien, Lazy Loading, Micro-Frontends",
+        "feature_4": "Aufbau eines Designsystems oder Integration eines Systems von Drittanbietern (z. B. Storybook + Figma)"
+      },
+      "product": {
+        "title": "Produktorientierte Lösungen",
+        "description": "Verbesserung der Qualität der Benutzeroberfläche und der Benutzererfahrung, um das Produkt schnell, bequem und effizient zu machen.",
+        "feature_1": "Beitrag zu UX/UI-Lösungen, Analyse von Layouts und Verbesserung",
+        "feature_2": "Optimierung der Leistung: LCP, CLS, TTFB, Ladegeschwindigkeit",
+        "feature_3": "Einrichtung von Analysen (GA, benutzerdefinierte Ereignisse) und A/B-Tests",
+        "feature_4": "Implementierung eines Systems zur Überwachung von Fehlern und Nutzerverhalten (Sentry, LogRocket)",
+        "feature_5": "Sicherstellung der Barrierefreiheit (a11y), Anpassungsfähigkeit und i18n-Unterstützung"
+      },
+      "process": {
+        "title": "Team und Prozesslösungen",
+        "description": "Assistance in building effective team processes and improving the technical culture of the project. Both with newcomers and experienced teams.",
+        "feature_1": "Code-Review, Mentoring, Onboarding",
+        "feature_2": "Einrichtung von CI/CD, Tests, Code-Stil",
+        "feature_3": "Techboard-Planung, Reduzierung der technischen Schulden",
+        "feature_4": "Kommunikation mit Backend, Designern, PMs",
+        "feature_5": "Teilnahme an Planung, Schätzungen, Priorisierung"
+      }
+    },
+    "skillsSection": {
+      "title": "Fähigkeiten",
+      "description": "Ich arbeite seit langer Zeit mit den folgenden Technologien und verbessere meine Fähigkeiten in diesen Bereichen ständig."
+    },
+    "contactSection": {
+      "title": "Kontaktformular",
+      "description": "Wenn Sie Fragen oder Anregungen haben oder einfach nur Kontakt aufnehmen möchten, füllen Sie bitte das untenstehende Formular aus. Ich werde Ihnen so schnell wie möglich antworten.",
+      "form": {
+        "name": {
+          "label": "Ihr Name",
+          "placeholder": "Bitte geben Sie Ihren Namen ein"
+        },
+        "email": {
+          "label": "Ihre E-Mail-Adresse",
+          "placeholder": "Bitte geben Sie Ihre E-Mail-Adresse ein"
+        },
+        "message": {
+          "label": "Ihre Nachricht",
+          "placeholder": "Bitte geben Sie Ihre Nachricht ein"
+        },
+        "sendButton": "Nachricht senden",
+        "sendButtonPending": "Senden"
+      }
+    }
+  },
+  "footer": {
+    "copyright": "Alle Rechte vorbehalten."
+  }
+}

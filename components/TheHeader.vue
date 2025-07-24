@@ -15,6 +15,7 @@
           <div class="hidden mt-2 mr-4 sm:inline-block">
             <span></span>
           </div>
+          <LanguegrSwitcher />
           <!-- <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> -->
           <!-- <a
             href="https://themesberg.com/product/tailwind-css/landing-page"
@@ -78,6 +79,9 @@
 </template>
 
 <script setup>
+import LanguegrSwitcher from "@/components/LanguageSwitcher.vue";
+
+
 const logo = `<Klimov/>`;
 </script>
 

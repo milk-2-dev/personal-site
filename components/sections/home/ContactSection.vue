@@ -2,8 +2,8 @@
   <SectionWrapper
     name="contact"
     id="contactForm"
-    title="Contact form."
-    :desc="sectionDesc"
+    :title="$t('home.contactSection.title')"
+    :desc="$t('home.contactSection.description')"
   >
     <div class="px-4 mx-auto max-w-screen-md">
       <form @submit.prevent="onSubmit" class="space-y-6">
@@ -12,8 +12,8 @@
             <FormInput
               ref="nameInput"
               name="contactFormName"
-              label="Your name"
-              placeholder="Please write your name"
+              :label="$t('home.contactSection.form.name.label')"
+              :placeholder="$t('home.contactSection.form.name.placeholder')"
               :errorMessage="nameError"
               v-model="name"
             />
@@ -23,8 +23,8 @@
             <FormInput
               type="email"
               name="contactFormEmail"
-              label="Your email"
-              placeholder="Please write your email"
+              :label="$t('home.contactSection.form.email.label')"
+              :placeholder="$t('home.contactSection.form.email.placeholder')"
               :errorMessage="emailError"
               v-model="email"
             />
@@ -35,8 +35,8 @@
           <FormInput
             as="textarea"
             name="contactFormMessage"
-            label="Your message"
-            placeholder="Please write your message"
+            :label="$t('home.contactSection.form.message.label')"
+            :placeholder="$t('home.contactSection.form.message.placeholder')"
             :errorMessage="messageError"
             v-model="message"
           />
@@ -46,9 +46,9 @@
           type="submit"
           class="px-5 py-2.5 text-sm font-medium text-white inline-flex items-center bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
-          <span v-if="!isPending">Send message</span>
+          <span v-if="!isPending">{{ $t('home.contactSection.form.sendButton') }}</span>
           <template v-else>
-            Sending
+            {{ $t('home.contactSection.form.sendButtonPending') }}
 
             <svg
               class="w-3.5 h-3.5 text-white ms-3"
@@ -159,9 +159,6 @@ watch(
   },
   { immediate: true }
 );
-
-const sectionDesc =
-  "If you have any questions, suggestions, or just want to get in touch, please fill out the form below and I will respond as soon as possible.";
 
 const { handleSubmit, resetField } = useForm({
   validationSchema: contactSchema,
