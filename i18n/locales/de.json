@@ -56,6 +56,10 @@
         "feature_4": "Kommunikation mit Backend, Designern, PMs",
         "feature_5": "Teilnahme an Planung, Schätzungen, Priorisierung"
       }
+    },
+    "skillsSection": {
+      "title": "Fähigkeiten",
+      "description": "Ich arbeite seit langer Zeit mit den folgenden Technologien und verbessere meine Fähigkeiten in diesen Bereichen ständig."
     }
   },
   "footer": {

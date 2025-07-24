@@ -1,5 +1,5 @@
 <template>
-  <SectionWrapper name="skills" title="Skills." :desc="sectionDesc">
+  <SectionWrapper name="skills" :title="$t('home.skillsSection.title')" :desc="$t('home.skillsSection.description')">
     <div
       class="gap-8 grid grid-cols-1 sm:grid-cols-2 xl:gap-16"
     >
@@ -28,8 +28,6 @@
 import { Tetris } from "@/components/ui/backgrounds";
 import SectionWrapper from "@/components/sections/SectionWrapper.vue";
 
-const sectionDesc =
-  "I am constantly improving my knowledge and mastering new technologies to create even better and more efficient solutions. Here are the main technologies and tools I work with:";
 
 const skills = [
   [

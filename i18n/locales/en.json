@@ -56,6 +56,10 @@
         "feature_4": "Communication with backend, designers, PM`s",
         "feature_5": "Participation in planning, estimates, prioritization"
       }
+    },
+    "skillsSection": {
+      "title": "Skills",
+      "description": "I have been working with the following technologies for a long time, and I am constantly improving my skills in them."
     }
   },
   "footer": {
