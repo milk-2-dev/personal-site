@@ -1,3 +1,25 @@
 {
-  "welcome": "Willkommen"
+  "common": {
+    "language": "Language",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroSection": {
+      "mainTitle1": "Ich bin wie der Friseur, dem Sie Ihr Haar anvertrauen – aber ein",
+      "mainTitle2": "Frontend-Entwickler",
+      "mainTitle3": "dem Sie Ihr Produkt anvertrauen können.",
+      "reachMeVia": "Sie können mich erreichen unter:",
+      "or": "oder",
+      "contactFormButton": "Kontaktformular"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Your Company"
+  }
 }

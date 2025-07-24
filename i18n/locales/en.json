@@ -1,3 +1,25 @@
 {
-  "welcome": "Welcome"
+  "common": {
+    "language": "Language",
+    "submit": "Submit",
+    "cancel": "Cancel"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroSection": {
+      "mainTitle1": "I’m like the stylist you trust with your hair — but a",
+      "mainTitle2": "frontend developer",
+      "mainTitle3": "you can trust with your product.",
+      "reachMeVia": "You can reach me via:",
+      "or": "or",
+      "contactFormButton": "Contact form"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Your Company"
+  }
 }

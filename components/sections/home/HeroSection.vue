@@ -5,22 +5,22 @@
     <ClientOnly>
       <BlurReveal :delay="0.2" :duration="0.75" class="p-8 z-10">
         <div class="mt-6 py-3 text-base text-gray-600 sm:text-3xl xl:text-4xl">
-          <p class="">"I’m like the stylist you trust with your hair — but a</p>
+          <p class="">"{{ $t("home.heroSection.mainTitle1") }}</p>
           <p class=" ">
             <TextHighlight
               class="text-base rounded-lg bg-gradient-to-r from-indigo-300 to-purple-300 sm:text-3xl xl:text-4xl"
               :delay="1000"
             >
-              frontend developer</TextHighlight
+              {{ $t("home.heroSection.mainTitle2") }}</TextHighlight
             >
-            you can trust with your product."
+            {{ $t("home.heroSection.mainTitle3") }}"
           </p>
         </div>
 
         <div class="mt-6">
           <span
             class="font-medium tracking-widest text-center text-gray-500 uppercase text-xs block mb-3 sm:mb-0 sm:inline sm:text-left"
-            >You can reach me via:</span
+            >{{ $t("home.heroSection.reachMeVia") }}</span
           >
 
           <div class="flex flex-col flex-wrap items-center sm:flex-row">
@@ -59,12 +59,12 @@
 
             <span
               class="px-6 font-medium tracking-widest text-gray-500 uppercase text-xs mb-3 sm:mb-0"
-              >or</span
+              >{{ $t("home.heroSection.or") }}</span
             >
 
             <InteractiveHoverButton
               class="w-56 mb-3 sm:mb-0"
-              text="Contact form"
+              :text="$t('home.heroSection.contactFormButton')"
               @click="scrollToAnchor()"
             />
           </div>
