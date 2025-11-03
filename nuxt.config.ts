@@ -4,16 +4,18 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   nitro: {
     routeRules: {
-      '/api/**': {
+      "/api/**": {
         cors: true,
         headers: {
-          'Access-Control-Allow-Origin': 'https://klimov-static.onrender.com',
-          'Access-Control-Allow-Methods': 'GET, HEAD, PUT, PATCH, POST, DELETE, OPTIONS',
-          'Access-Control-Allow-Headers': 'Content-Type, Authorization, X-Requested-With',
-          'Access-Control-Allow-Credentials': 'true'
-        }
-      }
-    }
+          "Access-Control-Allow-Origin": "https://klimov-static.onrender.com",
+          "Access-Control-Allow-Methods":
+            "GET, HEAD, PUT, PATCH, POST, DELETE, OPTIONS",
+          "Access-Control-Allow-Headers":
+            "Content-Type, Authorization, X-Requested-With",
+          "Access-Control-Allow-Credentials": "true",
+        },
+      },
+    },
   },
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
@@ -75,17 +77,17 @@ export default defineNuxtConfig({
     },
   },
   i18n: {
-    defaultLocale: 'en',
-    strategy: 'prefix_except_default',
+    defaultLocale: "en",
+    strategy: "prefix_except_default",
     locales: [
-      { code: 'en', name: 'English', file: 'en.json', iso: 'en-US' },
-      { code: 'de', name: 'Deutsch', file: 'de.json', iso: 'de-DE' }
+      { code: "en", name: "English", file: "en.json", iso: "en-US" },
+      { code: "de", name: "Deutsch", file: "de.json", iso: "de-DE" },
     ],
     detectBrowserLanguage: {
       useCookie: true,
-      cookieKey: 'i18n_redirected',
+      cookieKey: "i18n_redirected",
       alwaysRedirect: true,
-      fallbackLocale: 'en'
-    }
-  }
+      fallbackLocale: "en",
+    },
+  },
 });
