@@ -178,7 +178,7 @@ const onSubmit = handleSubmit(async (values) => {
   isPending.value = true;
 
   try {
-    const response = await useFetch<ContactFormResponse>("/api/contact", {
+    const response = await useFetch<ContactFormResponse>("https://klimov.onrender.com/api/contact", {
       method: "POST",
       body: values,
     });
