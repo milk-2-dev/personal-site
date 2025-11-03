@@ -8,10 +8,10 @@
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            {{ $t('home.solutionsSection.architecture.title') }}
+            {{ $t("home.solutionsSection.architecture.title") }}
           </h2>
           <p class="mb-8 font-light lg:text-xl">
-            {{ $t('home.solutionsSection.architecture.description') }}
+            {{ $t("home.solutionsSection.architecture.description") }}
           </p>
           <!-- List -->
           <ul
@@ -27,7 +27,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.architecture.feature_1') }}
+                >{{ $t("home.solutionsSection.architecture.feature_1") }}
               </span>
             </li>
             <li class="flex space-x-3">
@@ -39,7 +39,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.architecture.feature_2') }}
+                >{{ $t("home.solutionsSection.architecture.feature_2") }}
               </span>
             </li>
             <li class="flex space-x-3">
@@ -51,7 +51,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.architecture.feature_3') }}
+                >{{ $t("home.solutionsSection.architecture.feature_3") }}
               </span>
             </li>
             <li class="flex space-x-3">
@@ -63,14 +63,14 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.architecture.feature_4') }}
+                >{{ $t("home.solutionsSection.architecture.feature_4") }}
               </span>
             </li>
           </ul>
         </div>
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="/images/architectureSolutions.svg"
+          :src="architectureImage"
           sizes="584px sm:607px md:480px"
           width="607"
           height="442"
@@ -80,7 +80,7 @@
       <div class="items-center gap-8 grid grid-cols-1 sm:grid-cols-2 xl:gap-16">
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="/images/productOrientedSolutions.svg"
+          :src="productOrientedImage"
           sizes="584px sm:607px md:480px"
           width="607"
           height="442"
@@ -92,10 +92,10 @@
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            {{ $t('home.solutionsSection.product.title') }}
+            {{ $t("home.solutionsSection.product.title") }}
           </h2>
           <p class="mb-8 font-light lg:text-xl">
-            {{ $t('home.solutionsSection.product.description') }}
+            {{ $t("home.solutionsSection.product.description") }}
           </p>
           <!-- List -->
           <ul
@@ -111,7 +111,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.product.feature_1') }}</span
+                >{{ $t("home.solutionsSection.product.feature_1") }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -122,19 +122,7 @@
               />
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.product.feature_2') }}</span
-              >
-            </li>
-            <li class="flex space-x-3">
-              <font-awesome
-                class="text-primary"
-                :icon="['fas', 'circle-check']"
-                size="1x"
-              />
-              <span
-                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-              >
-                {{ $t('home.solutionsSection.product.feature_3') }}</span
+                >{{ $t("home.solutionsSection.product.feature_2") }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -146,7 +134,7 @@
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
               >
-                {{ $t('home.solutionsSection.product.feature_4') }}</span
+                {{ $t("home.solutionsSection.product.feature_3") }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -158,7 +146,19 @@
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
               >
-                {{ $t('home.solutionsSection.product.feature_5') }}</span
+                {{ $t("home.solutionsSection.product.feature_4") }}</span
+              >
+            </li>
+            <li class="flex space-x-3">
+              <font-awesome
+                class="text-primary"
+                :icon="['fas', 'circle-check']"
+                size="1x"
+              />
+              <span
+                class="text-base font-medium leading-tight text-gray-900 dark:text-white"
+              >
+                {{ $t("home.solutionsSection.product.feature_5") }}</span
               >
             </li>
           </ul>
@@ -169,10 +169,10 @@
           <h2
             class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white"
           >
-            {{ $t('home.solutionsSection.process.title') }}
+            {{ $t("home.solutionsSection.process.title") }}
           </h2>
           <p class="mb-8 font-light lg:text-xl">
-            {{ $t('home.solutionsSection.process.description') }}
+            {{ $t("home.solutionsSection.process.description") }}
           </p>
           <!-- List -->
           <ul
@@ -188,7 +188,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.process.feature_1') }}</span
+                >{{ $t("home.solutionsSection.process.feature_1") }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -200,7 +200,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.process.feature_2') }}</span
+                >{{ $t("home.solutionsSection.process.feature_2") }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -212,7 +212,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.process.feature_3') }}</span
+                >{{ $t("home.solutionsSection.process.feature_3") }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -224,7 +224,7 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.process.feature_4') }}</span
+                >{{ $t("home.solutionsSection.process.feature_4") }}</span
               >
             </li>
             <li class="flex space-x-3">
@@ -236,14 +236,14 @@
 
               <span
                 class="text-base font-medium leading-tight text-gray-900 dark:text-white"
-                >{{ $t('home.solutionsSection.process.feature_5') }}</span
+                >{{ $t("home.solutionsSection.process.feature_5") }}</span
               >
             </li>
           </ul>
         </div>
         <NuxtImg
           class="w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-          src="/images/teamAndProcessSolutions.svg"
+          :src="teamImage"
           sizes="584px sm:607px md:480px"
           width="607"
           height="442"
@@ -254,6 +254,10 @@
   </section>
 </template>
 
-<script setup></script>
+<script setup>
+import teamImage from "~/public/images/teamAndProcessSolutions.svg";
+import productOrientedImage from "~/public/images/productOrientedSolutions.svg";
+import architectureImage from "~/public/images/architectureSolutions.svg";
+</script>
 
 <style lang="scss" scoped></style>
